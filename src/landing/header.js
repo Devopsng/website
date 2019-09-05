@@ -26,9 +26,9 @@ function Header() {
                 data-wow-delay="0.6s"
               >
                 <a href="#" className="software_banner_btn">
-                  Get Started
+                  Join Us 
                 </a>
-                <a
+                {/* <a
                   href="https://www.youtube.com/watch?v=sU3FkzUKHXU"
                   className="video_btn popup-youtube"
                 >
@@ -36,7 +36,7 @@ function Header() {
                     <i className="ti-control-play"></i>
                   </div>
                   <span>Watch Video</span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
