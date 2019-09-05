@@ -8,28 +8,28 @@ function Preloader() {
           <div className="spinner"></div>
           <div className="txt-loading">
             <span data-text-preloader="D" className="letters-loading">
-              S
+              D
             </span>
             <span data-text-preloader="E" className="letters-loading">
-              A
+              E
             </span>
             <span data-text-preloader="V" className="letters-loading">
-              A
+              V
             </span>
             <span data-text-preloader="O" className="letters-loading">
-              S
+              O
             </span>
             <span data-text-preloader="P" className="letters-loading">
-              L
+              P
             </span>
             <span data-text-preloader="S" className="letters-loading">
-              A
+              S
             </span>
             <span data-text-preloader="N" className="letters-loading">
               N
             </span>
             <span data-text-preloader="G" className="letters-loading">
-              D
+              G
             </span>
           </div>
           <p className="text-center">Loading</p>
