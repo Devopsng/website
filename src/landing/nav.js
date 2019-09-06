@@ -9,7 +9,8 @@ function Nav() {
                     <a className="navbar-brand sticky_logo" href="#">
                         {/* <img src="img/logo2.png" srcset="img/logo2x-2.png 2x" alt="logo" /> */}
                         {/* <img src="logo192.png" srcset="img/logo2x.png 2x" alt="" /> */}
-                        <img src="logo192.png" alt="" height="70px"/>
+                        {{/* <img src="logo192.png" alt="" height="70px"/> */}}
+                        <img src="devops.png" alt="" height="70px"/>
                     </a>
                     <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="menu_toggle">
