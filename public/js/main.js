@@ -3,12 +3,12 @@
 
     /*-------------------------------------------------------------------------------
 	  Navbar 
-	-------------------------------------------------------------------------------*/
-
-    console.log("MAIN")
+    -------------------------------------------------------------------------------*/
+    
 	//* Navbar Fixed  
     function navbarFixed(){
         if ( $('.header_area').length ){ 
+            console.log("IFOIFSFLJHISO");
             $(window).scroll(function() {
                 var scroll = $(window).scrollTop();   
                 if (scroll){
@@ -20,6 +20,7 @@
         };
     };
     navbarFixed();
+    
     
     
     function offcanvasActivator(){
