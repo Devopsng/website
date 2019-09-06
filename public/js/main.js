@@ -5,6 +5,7 @@
 	  Navbar 
 	-------------------------------------------------------------------------------*/
 
+    console.log("MAIN")
 	//* Navbar Fixed  
     function navbarFixed(){
         if ( $('.header_area').length ){ 
