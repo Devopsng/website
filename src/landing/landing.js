@@ -6,7 +6,7 @@ import JoinUs from './join-us'
 
 function Landing() {
     return (
-        <div class="body_wrapper">
+        <div className="body_wrapper">
             <Nav />
             <Header/>
             <WhyJoin />
