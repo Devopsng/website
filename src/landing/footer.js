@@ -2,56 +2,59 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class="footer_area footer_area_five pt_150 f_bg">
-      <div class="footer_top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="f_widget company_widget">
-                <a href="index.html" class="f-logo">
+    <footer className="footer_area footer_area_five pt_150 f_bg">
+      <div className="footer_top">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-6">
+              <div className="f_widget company_widget">
+                <a href="index.html" className="f-logo">
                   <img
-                    src="img/logo.png"
-                    srcset="img/logo2x.png 2x"
+                    src="logo192.png"
+                    // srcset="img/logo2x.png 2x"
                     alt="logo"
+                    height="50px"
                   />
                 </a>
-                <div class="widget-wrap">
-                  <p class="f_400 f_p f_size_15 mb-0 l_height34">
+                <div className="widget-wrap">
+                  <p className="f_400 f_p f_size_15 mb-0 l_height34">
                     <span>Email:</span>{" "}
-                    <a href="mailto:saasland@gmail.com" class="f_400">
+                    <a href="mailto:saasland@gmail.com" className="f_400">
                       saasland@gmail.com
                     </a>
                   </p>
-                  <p class="f_400 f_p f_size_15 mb-0 l_height34">
+                  <p className="f_400 f_p f_size_15 mb-0 l_height34">
                     <span>Phone:</span>{" "}
-                    <a href="tel:948256347968" class="f_400">
+                    <a href="tel:948256347968" className="f_400">
                       +948 256 347 968
                     </a>
                   </p>
                 </div>
                 <form
                   action="#"
-                  class="f_subscribe mailchimp_two"
+                  className="f_subscribe mailchimp_two"
                   method="post"
                 >
                   <input
                     type="text"
                     name="EMAIL"
-                    class="form-control memail"
+                    className="form-control memail"
                     placeholder="Email"
                   />
-                  <button class="btn btn-submit" type="submit">
-                    <i class="ti-arrow-right"></i>
+                  <button className="btn btn-submit" type="submit">
+                    <i className="ti-arrow-right"></i>
                   </button>
-                  <p class="mchimp-errmessage" style="display: none;"></p>
-                  <p class="mchimp-sucmessage" style="display: none;"></p>
+                  {/* <p className="mchimp-errmessage" style="display: none;"></p> */}
+                  {/* <p className="mchimp-sucmessage" style="display: none;"></p> */}
                 </form>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="f_widget about-widget pl_40">
-                <h3 class="f-title f_600 t_color f_size_18 mb_40">About Us</h3>
-                <ul class="list-unstyled f_list">
+            <div className="col-lg-3 col-md-6">
+              <div className="f_widget about-widget pl_40">
+                <h3 className="f-title f_600 t_color f_size_18 mb_40">
+                  About Us
+                </h3>
+                <ul className="list-unstyled f_list">
                   <li>
                     <a href="#">Company</a>
                   </li>
@@ -73,12 +76,12 @@ function Footer() {
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="f_widget about-widget">
-                <h3 class="f-title f_600 t_color f_size_18 mb_40">
+            <div className="col-lg-3 col-md-6">
+              <div className="f_widget about-widget">
+                <h3 className="f-title f_600 t_color f_size_18 mb_40">
                   Workflow Solutions
                 </h3>
-                <ul class="list-unstyled f_list">
+                <ul className="list-unstyled f_list">
                   <li>
                     <a href="#">Project Management</a>
                   </li>
@@ -100,12 +103,12 @@ function Footer() {
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="f_widget about-widget">
-                <h3 class="f-title f_600 t_color f_size_18 mb_40">
+            <div className="col-lg-3 col-md-6">
+              <div className="f_widget about-widget">
+                <h3 className="f-title f_600 t_color f_size_18 mb_40">
                   Team Solutions
                 </h3>
-                <ul class="list-unstyled f_list">
+                <ul className="list-unstyled f_list">
                   <li>
                     <a href="#">Engineering</a>
                   </li>
@@ -130,32 +133,33 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div class="footer_bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-5 col-sm-6">
-              <p class="mb-0 f_400">
-                Copyright © 2018 Desing by <a href="#">DroitThemes</a>
+      <div className="footer_bottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4 col-md-5 col-sm-6">
+              <p className="mb-0 f_400">
+                Copyright © 2019 
+                {/* Desing by <a href="#">DroitThemes</a> */}
               </p>
             </div>
-            <div class="col-lg-4 col-md-3 col-sm-6">
-              <div class="f_social_icon_two text-center">
+            <div className="col-lg-4 col-md-3 col-sm-6">
+              <div className="f_social_icon_two text-center">
                 <a href="#">
-                  <i class="ti-facebook"></i>
+                  <i className="ti-facebook"></i>
                 </a>
                 <a href="#">
-                  <i class="ti-twitter-alt"></i>
+                  <i className="ti-twitter-alt"></i>
                 </a>
                 <a href="#">
-                  <i class="ti-vimeo-alt"></i>
+                  <i className="ti-vimeo-alt"></i>
                 </a>
                 <a href="#">
-                  <i class="ti-pinterest"></i>
+                  <i className="ti-pinterest"></i>
                 </a>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <ul class="list-unstyled f_menu text-right">
+            <div className="col-lg-4 col-md-4 col-sm-12">
+              <ul className="list-unstyled f_menu text-right">
                 <li>
                   <a href="#">Terms of Use</a>
                 </li>

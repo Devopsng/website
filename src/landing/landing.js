@@ -4,6 +4,8 @@ import Header from './header'
 import WhyJoin from './why-join-us'
 import JoinUs from './join-us'
 import Sponsors from './sponspors'
+import Footer from './footer'
+
 function Landing() {
     return (
         <div className="body_wrapper">
@@ -12,6 +14,7 @@ function Landing() {
             <WhyJoin />
             <JoinUs/>
             <Sponsors />
+            <Footer />
         </div>
     );
 }

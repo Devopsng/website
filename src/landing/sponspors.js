@@ -5,7 +5,7 @@ function Sponsors() {
     <section className="partner_logo_area_two">
       <div className="container">
         <h4 className="f_size_18 f_400 f_p text-center l_height28 mb_70">
-          Market leaders use app to nrich their brand & business.
+          OUR SPONSORS
         </h4>
         <div className="row partner_info">
           <div className="logo_item wow fadeInLeft" data-wow-delay="0.1s">
