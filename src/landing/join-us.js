@@ -38,14 +38,14 @@ function JoinUs() {
                   className="btn_hover btn_four wow fadeInRight"
                 //   data-wow-delay="0.6s"
                 >
-                  Learn More
+                  Slack
                 </a>
                 <a
                   href="#"
                   className="btn_hover btn_four wow fadeInLeft"
                 //   data-wow-delay="0.6s"
                 >
-                  Learn More
+                  Telegram
                 </a>
               </div>
             </div>
