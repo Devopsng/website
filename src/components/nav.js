@@ -37,9 +37,9 @@ function Nav() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav menu w_menu pl_120 ml-auto mr-auto">
                             <li className="nav-item dropdown submenu mega_menu mega_menu_two active">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <Link to="/" className="nav-link dropdown-toggle" href="#" role="button">
                                     HOME
-                                </a>
+                                </Link>
                             </li>
                             
                             <li className="dropdown submenu nav-item"><a title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">PUBLICATIONS</a>

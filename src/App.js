@@ -25,7 +25,7 @@ function App() {
                   {/*    <Redirect to="/dashboard" />*/}
                   {/*</Route>*/}
                   <Route exact path="/meetup" component={MeetUp} />
-                  <Route path="/" component={Index} />
+                  <Route exact path="/" component={Index} />
               </Switch>
           </Router>
       </div>
