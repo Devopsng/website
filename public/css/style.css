@@ -21505,13 +21505,3 @@ a .h_head:hover {
 /*====================================================*/
 
 /*# sourceMappingURL=style.css.map */
-
-
-
-
-
-
-/* EDIT */
-.invert-img{
-  filter: brightness(0) invert(1);
-}
