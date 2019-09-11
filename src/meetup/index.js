@@ -1,11 +1,17 @@
 import React from "react";
-
-function Index() {
+import Nav from "../components/nav";
+import Header from "./header";
+import WhyMeetUp from "./why-meetup";
+import MeetUpList from "./meetups";
+function MeetUp() {
     return (
         <div className="body_wrapper">
-            HERE
+            <Nav/>
+            <Header />
+            <WhyMeetUp />
+            <MeetUpList />
         </div>
     );
 }
 
-export default Index;
+export default MeetUp;

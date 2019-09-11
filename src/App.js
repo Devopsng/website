@@ -9,7 +9,7 @@ import {
 import './App.css';
 import Preloader from './preloader/preloader'
 import Index from './landing'
-import Index from './meetup'
+import MeetUp from './meetup'
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
                   {/*<Route path="/" exact>*/}
                   {/*    <Redirect to="/dashboard" />*/}
                   {/*</Route>*/}
-                  <Route exact path="/meetup" component={Index} />
+                  <Route exact path="/meetup" component={MeetUp} />
                   <Route path="/" component={Index} />
               </Switch>
           </Router>
