@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from './nav'
+import Nav from '../components/nav'
 import Header from './header'
 import WhyJoin from './why-join-us'
 import JoinUs from './join-us'
