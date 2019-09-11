@@ -8,14 +8,14 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import Preloader from './preloader/preloader'
-import Landing from './landing/landing'
-import MeetUp from './meetup/meetup'
+import Index from './landing'
+import Index from './meetup'
 
 function App() {
   return (
    // {/*<div>*/}
     //{/*  */}
-   // {/*  <Landing/>*/}
+   // {/*  <Index/>*/}
   //  {/*</div>*/}
       <div>
           <Preloader/>
@@ -24,8 +24,8 @@ function App() {
                   {/*<Route path="/" exact>*/}
                   {/*    <Redirect to="/dashboard" />*/}
                   {/*</Route>*/}
-                  <Route exact path="/meetup" component={MeetUp} />
-                  <Route path="/" component={Landing} />
+                  <Route exact path="/meetup" component={Index} />
+                  <Route path="/" component={Index} />
               </Switch>
           </Router>
       </div>

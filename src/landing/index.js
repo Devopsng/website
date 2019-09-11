@@ -6,7 +6,7 @@ import JoinUs from './join-us'
 import Sponsors from './sponspors'
 import Footer from './footer'
 
-function Landing() {
+function Index() {
     return (
         <div className="body_wrapper">
             <Nav />
@@ -19,4 +19,4 @@ function Landing() {
     );
 }
 
-export default Landing;
+export default Index;

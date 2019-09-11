@@ -1,6 +1,6 @@
 import React from "react";
 
-function MeetUp() {
+function Index() {
     return (
         <div className="body_wrapper">
             HERE
@@ -8,4 +8,4 @@ function MeetUp() {
     );
 }
 
-export default MeetUp;
+export default Index;
