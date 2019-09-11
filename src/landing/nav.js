@@ -1,4 +1,11 @@
 import React from "react";
+import {
+    Route,
+    NavLink,
+    Link,
+    BrowserRouter as Router,
+    Switch,
+} from 'react-router-dom';
 
 function Nav() {
     return (
@@ -93,51 +100,9 @@ function Nav() {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown submenu mega_menu">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <Link to="/meetup" className="nav-link dropdown-toggle" role="button">
                                     MEETUPS
-                                </a>
-                                <div className="mega_menu_inner">
-                                    <ul className="dropdown-menu">
-                                        <li className="nav-item">
-                                            <a href="index.html" className="nav-link">Portfolio Grid</a>
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item"><a href="portfolio-grid-2col.html" className="nav-link">Style 1 (2 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-grid-3columns.html" className="nav-link">Style 1 (3 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-grid-4columns.html" className="nav-link">Style 1 (4 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-grid-2col-2.html" className="nav-link">Style 2 (2 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-grid-2col-3.html" className="nav-link">Style 2 (3 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-grid-2col-4.html" className="nav-link">Style 2 (4 columns)</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a href="index.html" className="nav-link">Portfolio Fluid</a>
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item"><a href="portfolio-fullwidth-3columns.html" className="nav-link">Style 1 (3 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-fullwidth-4columns.html" className="nav-link">Style 1 (4 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-grid-fullwidth1.html" className="nav-link">Style 2 (3 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-grid-fullwidth2.html" className="nav-link">Style 2 (4 columns)</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a href="index.html" className="nav-link">Portfolio Masonry</a>
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item"><a href="portfolio-mas-2col.html" className="nav-link">Style 1 (2 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-mas-3col.html" className="nav-link">Style 1 (3 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-mas-4col.html" className="nav-link">Style 1 (4 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-mas-3col-2.html" className="nav-link">Style 2 (3 columns)</a></li>
-                                                <li className="nav-item"><a href="portfolio-mas-4col-2.html" className="nav-link">Style 2 (4 columns)</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a href="index.html" className="nav-link">Project details</a>
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item"><a href="portfolio-details-1.html" className="nav-link">Style 1</a></li>
-                                                <li className="nav-item"><a href="portfolio-details-2.html" className="nav-link">Style 2</a></li>
-                                                <li className="nav-item"><a href="portfolio-details-3.html" className="nav-link">Style 3</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
+                                </Link>
                             </li>
                             <li className="nav-item dropdown submenu">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

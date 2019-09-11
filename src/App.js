@@ -1,15 +1,34 @@
 import React from 'react';
 import logo from './logo.svg';
+import {
+    Route,
+    NavLink,
+    BrowserRouter as Router,
+    Switch,
+} from 'react-router-dom';
 import './App.css';
 import Preloader from './preloader/preloader'
 import Landing from './landing/landing'
+import MeetUp from './meetup/meetup'
 
 function App() {
   return (
-    <div>
-      <Preloader/>
-      <Landing/>
-    </div>
+   // {/*<div>*/}
+    //{/*  */}
+   // {/*  <Landing/>*/}
+  //  {/*</div>*/}
+      <div>
+          <Preloader/>
+          <Router>
+              <Switch>
+                  {/*<Route path="/" exact>*/}
+                  {/*    <Redirect to="/dashboard" />*/}
+                  {/*</Route>*/}
+                  <Route exact path="/meetup" component={MeetUp} />
+                  <Route path="/" component={Landing} />
+              </Switch>
+          </Router>
+      </div>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
