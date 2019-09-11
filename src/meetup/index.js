@@ -3,6 +3,9 @@ import Nav from "../components/nav";
 import Header from "./header";
 import WhyMeetUp from "./why-meetup";
 import MeetUpList from "./meetups";
+import Sponsors from "../components/sponspors";
+import Footer from "../components/footer";
+
 function MeetUp() {
     return (
         <div className="body_wrapper">
@@ -10,6 +13,8 @@ function MeetUp() {
             <Header />
             <WhyMeetUp />
             <MeetUpList />
+            <Sponsors />
+            <Footer />
         </div>
     );
 }
