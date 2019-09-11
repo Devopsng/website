@@ -17,9 +17,8 @@ function Header() {
                 className="w_color f_size_18 l_height30 mt_30 wow fadeInLeft"
                 data-wow-delay="0.4s"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent rhoncus efficitur interdum. Cras nec mauris ac lectus
-                iaculis laoreet. Maecenas finibus vel metus at tincidunt.
+                Join thousands of (Software, DevOps, Cloud and Site Reliability) Engineers and IT experts in Africa, 
+                Get updated on news and happenings in the community, get must-read articles, chat with like-minded people, get job offers and more.
               </p>
               <div
                 className="action_btn d-flex align-items-center mt_40 wow fadeInLeft"
@@ -42,7 +41,7 @@ function Header() {
           </div>
           <div className="col-lg-6">
             <div className="software_img wow fadeInRight" data-wow-delay="0.2s">
-              <img src="img/home5/banner_img.png" alt="" />
+              <img src="img/home5/banner_new.jpg" alt="" />
             </div>
           </div>
         </div>

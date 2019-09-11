@@ -10,7 +10,7 @@ function JoinUs() {
               className="software_featured_img wow fadeInLeft"
               data-wow-delay="0.2s"
             >
-              <img className="img-fluid" src="img/home5/featured_img1.png" alt="" />
+              <img className="img-fluid" src="img/home5/meetup.jpeg" alt="" />
             </div>
           </div>
           <div className="col-lg-5 offset-lg-1 d-flex align-items-center pl-0">
