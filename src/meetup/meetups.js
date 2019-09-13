@@ -2,53 +2,79 @@ import React from "react";
 
 function MeetUpList() {
     return (
-        <section className="prototype_service_area_two">
-            <div className="container custom_container">
+        <section className="app_service_area app_service_area_two">
+            <div className="container">
                 <div className="sec_title text-center mb_70">
-                    <h2 className="f_p f_size_30 l_height50 f_600 t_color3">Our Locations</h2>
-                    <p className="f_400 f_size_16 mb-0">DevOp NG is everywhere within Nigeria</p>
+                    <h2 className="f_p f_size_30 l_height30 f_700 t_color3 mb_20">Our Locations</h2>
+                    <p className="f_400 f_size_16">DevOp NG is everywhere within Nigeria. blah blah blah blah<br />
+                        blah blah blah blah v blah blah
+                    </p>
                 </div>
-                <div className="service_carousel owl-carousel">
-                    <div className="service_item">
-                        <div className="icon s_icon_four">
-                            <a href="https://google.com">
-                                <i className="ti-plus"></i>
-                            </a>
+                <div className="row app_service_info">
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="app_service_item">
+                            <i className="ti-location-pin app_icon one"></i>
+                            <h5 className="f_p f_size_18 f_600 t_color3 mt_40 mb-30">Start Yours</h5>
+                            <p className="f_400 f_size_15 mb-30">Oxford jolly good cras bugger down the pub blow off
+                                well arse tinkety tonk old fruit William bite your arm off haggle, old it's all gone to
+                                pot daft no biggie bog.!</p>
+                            <a href="#" className="learn_btn_two c_violet">Start <i className="ti-arrow-right"></i></a>
                         </div>
-                        <h4 className="f_600 f_size_20 l_height28 t_color2 mb_20">Start<br /> Yours</h4>
-                        <p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
-                        <img className="float-right" src="img/home2/report.png" alt="" />
                     </div>
-                    <div className="service_item">
-                        <div className="icon s_icon_one">
-                            <a href="https://google.com">
-                                <i className="ti-plus"></i>
-                            </a>
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="app_service_item">
+                            <i className="ti-anchor app_icon two"></i>
+                            <h5 className="f_p f_size_18 f_600 t_color3 mt_40 mb-30">DevOps Lagos</h5>
+                            <p className="f_400 f_size_15 mb-30">Oxford jolly good cras bugger down the pub blow off
+                                well arse tinkety tonk old fruit William bite your arm off haggle, old it's all gone to
+                                pot daft no biggie bog.!</p>
+                            <a href="#" className="learn_btn_two c_violet">Join <i className="ti-arrow-right"></i></a>
                         </div>
-                        <h4 className="f_600 f_size_20 l_height28 t_color2 mb_20">DevOps<br/> Lagos</h4>
-                        <p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
-                        <img className="float-right" src="img/home2/undraw.png" alt="" />
                     </div>
-                    <div className="service_item">
-                        <div className="icon s_icon_two">
-                            <a href="https://google.com">
-                                <i className="ti-plus"></i>
-                            </a>
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="app_service_item">
+                            <i className="ti-target app_icon three"></i>
+                            <h5 className="f_p f_size_18 f_600 t_color3 mt_40 mb-30">DevOps Abuja</h5>
+                            <p className="f_400 f_size_15 mb-30">Oxford jolly good cras bugger down the pub blow off
+                                well arse tinkety tonk old fruit William bite your arm off haggle, old it's all gone to
+                                pot daft no biggie bog.!</p>
+                            <a href="#" className="learn_btn_two c_violet">Join <i className="ti-arrow-right"></i></a>
                         </div>
-                        <h4 className="f_600 f_size_20 l_height28 t_color2 mb_20">DevOps<br /> Abuja</h4>
-                        <p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
-                        <img className="float-right" src="img/home2/inbox.png" alt="" />
                     </div>
-                    <div className="service_item">
-                        <div className="icon s_icon_three">
-                            <a href="https://google.com">
-                                <i className="ti-plus"></i>
-                            </a>
+
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="app_service_item">
+                            <i className="ti-target app_icon one"></i>
+                            <h5 className="f_p f_size_18 f_600 t_color3 mt_40 mb-30">DevOps Ife</h5>
+                            <p className="f_400 f_size_15 mb-30">Oxford jolly good cras bugger down the pub blow off
+                                well arse tinkety tonk old fruit William bite your arm off haggle, old it's all gone to
+                                pot daft no biggie bog.!</p>
+                            <a href="#" className="learn_btn_two c_violet">Join <i className="ti-arrow-right"></i></a>
                         </div>
-                        <h4 className="f_600 f_size_20 l_height28 t_color2 mb_20">DevOps<br /> Ife</h4>
-                        <p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
-                        <img className="float-right" src="img/home2/file.png" alt="" />
                     </div>
+
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="app_service_item">
+                            <i className="ti-target app_icon two"></i>
+                            <h5 className="f_p f_size_18 f_600 t_color3 mt_40 mb-30">DevOps Ife</h5>
+                            <p className="f_400 f_size_15 mb-30">Oxford jolly good cras bugger down the pub blow off
+                                well arse tinkety tonk old fruit William bite your arm off haggle, old it's all gone to
+                                pot daft no biggie bog.!</p>
+                            <a href="#" className="learn_btn_two c_violet">Join <i className="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-sm-6">
+                        <div className="app_service_item">
+                            <i className="ti-target app_icon three"></i>
+                            <h5 className="f_p f_size_18 f_600 t_color3 mt_40 mb-30">DevOps Ife</h5>
+                            <p className="f_400 f_size_15 mb-30">Oxford jolly good cras bugger down the pub blow off
+                                well arse tinkety tonk old fruit William bite your arm off haggle, old it's all gone to
+                                pot daft no biggie bog.!</p>
+                            <a href="#" className="learn_btn_two c_violet">Join <i className="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>

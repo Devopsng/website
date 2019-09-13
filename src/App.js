@@ -5,6 +5,7 @@ import {
     NavLink,
     BrowserRouter as Router,
     Switch,
+    HashRouter
 } from 'react-router-dom';
 import './App.css';
 import Preloader from './preloader/preloader'
@@ -19,7 +20,7 @@ function App() {
   //  {/*</div>*/}
       <div>
           <Preloader/>
-          <Router>
+          <HashRouter>
               <Switch>
                   {/*<Route path="/" exact>*/}
                   {/*    <Redirect to="/dashboard" />*/}
@@ -27,7 +28,7 @@ function App() {
                   <Route exact path="/meetup" component={MeetUp} />
                   <Route exact path="/" component={Index} />
               </Switch>
-          </Router>
+          </HashRouter>
       </div>
     // <div className="App">
     //   <header className="App-header">
