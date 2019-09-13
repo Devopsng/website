@@ -2,6 +2,7 @@ import React from "react";
 import Nav from '../components/nav'
 import Header from './header'
 import ContactSection from "./contact";
+import Footer from "../components/footer";
 
 function Contact() {
     return (
@@ -9,6 +10,7 @@ function Contact() {
             <Nav />
             <Header/>
             <ContactSection />
+            <Footer/>
         </div>
     );
 }
