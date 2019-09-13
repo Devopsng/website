@@ -12,3 +12,9 @@
 .icon > a{
     color: #FFFFFF;
 }
+
+.get_content .app_btn.app_btn_one i {
+    font-size: 25px;
+    padding-right: 10px;
+    vertical-align: sub;
+}
