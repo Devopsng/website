@@ -10,7 +10,7 @@ function Footer() {
               <div className="f_widget company_widget">
                 <a href="index.html" className="f-logo">
                   <img
-                    src="logo192.png"
+                    src="devops-footer.png"
                     // srcset="img/logo2x.png 2x"
                     alt="logo"
                     height="50px"
@@ -19,14 +19,14 @@ function Footer() {
                 <div className="widget-wrap">
                   <p className="f_400 f_p f_size_15 mb-0 l_height34">
                     <span>Email:</span>{" "}
-                    <a href="mailto:saasland@gmail.com" className="f_400">
-                      saasland@gmail.com
+                    <a href="mailto:info@devops.ng" className="f_400">
+                      info@devops.ng
                     </a>
                   </p>
                   <p className="f_400 f_p f_size_15 mb-0 l_height34">
                     <span>Phone:</span>{" "}
-                    <a href="tel:948256347968" className="f_400">
-                      +948 256 347 968
+                    <a href="tel:+2348168087807" className="f_400">
+                      +234 816 8087 807
                     </a>
                   </p>
                 </div>
@@ -145,16 +145,13 @@ function Footer() {
             <div className="col-lg-4 col-md-3 col-sm-6">
               <div className="f_social_icon_two text-center">
                 <a href="#">
-                  <i className="ti-facebook"></i>
+                  <i className="ti-linkedin"></i>
                 </a>
                 <a href="#">
                   <i className="ti-twitter-alt"></i>
                 </a>
                 <a href="#">
-                  <i className="ti-vimeo-alt"></i>
-                </a>
-                <a href="#">
-                  <i className="ti-pinterest"></i>
+                  <i className="ti-instagram"></i>
                 </a>
               </div>
             </div>

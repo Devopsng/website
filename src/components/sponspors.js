@@ -52,7 +52,7 @@ function Sponsors() {
 
         <div className="subscribe_form_info text-center">
           <h2 className="f_600 f_size_30 l_height30 t_color3 mb_50">
-            Subscribe for ger exclusive news & offer
+            Subscribe to get exclusive Updates & offers
           </h2>
           <form className="mailchimp subscribe-form" method="post">
             <input

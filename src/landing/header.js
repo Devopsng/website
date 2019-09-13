@@ -41,7 +41,7 @@ function Header() {
           </div>
           <div className="col-lg-6">
             <div className="software_img wow fadeInRight" data-wow-delay="0.2s">
-              <img src="img/home5/banner_new.jpg" alt="" />
+              <img src="img/home5/banner_img.png" alt="" />
             </div>
           </div>
         </div>
