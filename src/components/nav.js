@@ -53,34 +53,14 @@ function Nav() {
                                 </Link>
                             </li>
                             <li className="nav-item dropdown submenu">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    JOB BOARDS
+                                <a className="nav-link dropdown-toggle" href="#" role="button">
+                                    THE COMMUNITY
                                 </a>
-                                <ul className="dropdown-menu">
-                                    <li className="nav-item"><a href="shop-grid.html" className="nav-link">Shop Grid</a></li>
-                                    <li className="nav-item"><a href="shop-list.html" className="nav-link">Shop list</a></li>
-                                    <li className="nav-item"><a href="product-details-1.html" className="nav-link">Product detail</a></li>
-                                    <li className="nav-item"><a href="shoping-cart.html" className="nav-link">Shopping cart</a></li>
-                                    <li className="nav-item"><a href="checkout.html" className="nav-link">Checkout</a></li>
-                                    <li className="nav-item"><a href="wishlist.html" className="nav-link">Wishlist</a></li>
-                                </ul>
                             </li>
                             <li className="nav-item dropdown submenu">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    EXTRA MENU 
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li className="nav-item"><a href="blog-grid.html" className="nav-link">Blog Grid</a></li>
-                                    <li className="nav-item"><a href="blog-grid-two.html" className="nav-link">Blog Grid Two</a></li>
-                                    <li className="nav-item"><a href="blog-list.html" className="nav-link">Blog List</a></li>
-                                    <li className="nav-item"><a href="blog-right-sidebar.html" className="nav-link">Blog Right Sidebar</a></li>
-                                    <li className="nav-item"><a href="blog-masonry.html" className="nav-link">Blog Masonry</a></li>
-                                    <li className="nav-item"><a href="blog-masonry-two.html" className="nav-link">Blog Masonry Two</a></li>
-                                    <li className="nav-item"><a href="blog-masonry-sidebar.html" className="nav-link">Blog Masonry Sidebar</a></li>
-                                    <li className="nav-item"><a href="blog-masonry-sidebar-two.html" className="nav-link">Blog Masonry Sidebar Two</a></li>
-                                    <li className="nav-item"><a href="blog-single.html" className="nav-link">Blog Single</a></li>
-                                    <li className="nav-item"><a href="blog-single-two.html" className="nav-link">Blog Single Two</a></li>
-                                </ul>
+                                <Link to="/contact" className="nav-link dropdown-toggle" href="#" role="button">
+                                    CONTACT US
+                                </Link>
                             </li>
                         </ul>
                         <a className="btn_get btn_get_radious menu_cus menu_custfive" href="#get-app">Join Us</a>

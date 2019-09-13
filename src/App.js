@@ -11,6 +11,7 @@ import './App.css';
 import Preloader from './preloader/preloader'
 import Index from './landing'
 import MeetUp from './meetup'
+import Contact from "./contact";
 
 function App() {
   return (
@@ -25,8 +26,9 @@ function App() {
                   {/*<Route path="/" exact>*/}
                   {/*    <Redirect to="/dashboard" />*/}
                   {/*</Route>*/}
-                  <Route exact path="/meetup" component={MeetUp} />
                   <Route exact path="/" component={Index} />
+                  <Route exact path="/meetup" component={MeetUp} />
+                  <Route exact path="/contact" component={Contact}/>
               </Switch>
           </HashRouter>
       </div>
