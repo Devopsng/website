@@ -42,62 +42,10 @@ function Nav() {
                                 </Link>
                             </li>
                             
-                            <li className="dropdown submenu nav-item"><a title="Pages" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">PUBLICATIONS</a>
-                                <ul role="menu" className=" dropdown-menu">
-                                    <li className="dropdown submenu nav-item"><a title="Service" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Service <span className="arrow_carrot-right"></span> </a>
-                                        <ul className=" dropdown-menu">
-                                            <li className="nav-item"><a title="Service 01" className="nav-link" href="service-1.html">Service 01</a></li>
-                                            <li className="nav-item"><a title="Service 02" className="nav-link" href="service-2.html">Service 02</a></li>
-                                            <li className="nav-item"><a title="Service 03" className="nav-link" href="service-3.html">Service 03</a></li>
-                                            <li className="nav-item"><a title="Service Details" className="nav-link" href="service-details.html">Service Details</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li className="dropdown submenu nav-item"><a title="Career" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Career <span className="arrow_carrot-right"></span> </a>
-                                        <ul className=" dropdown-menu">
-                                            <li className="nav-item"><a title="Job Listing" className="nav-link" href="job-listing.html">Job Listing</a></li>
-                                            <li className="nav-item"><a title="Job Details" className="nav-link" href="job-details.html">Job Details</a></li>
-                                            <li className="nav-item"><a title="Apply Job" className="nav-link" href="job-apply.html">Apply Job</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item"><a title="About" className="nav-link" href="about.html">About</a></li>
-                                    <li className="nav-item"><a title="Process" className="nav-link" href="process.html">Process</a></li>
-                                    <li className="nav-item"><a title="Pricing" className="nav-link" href="price.html">Pricing</a></li>
-                                    <li className="dropdown submenu nav-item"><a title="Case Study" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Case Study<span className="arrow_carrot-right"></span> </a>
-                                        <ul className=" dropdown-menu">
-                                            <li className="nav-item"><a title="Case Study" className="nav-link" href="case-study.html">Case Study</a></li>
-                                            <li className="nav-item"><a title="Case study Details" className="nav-link" href="case-study-details.html">Case Study Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item"><a title="Team" className="nav-link" href="team.html">Team</a></li>
-                                    <li className="dropdown submenu nav-item"><a title="Sign Up" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Sign Up <span className="arrow_carrot-right"></span> </a>
-                                        <ul className=" dropdown-menu">
-                                            <li className="nav-item"><a title="Sign Up 01" className="nav-link" href="sign-up-1.html">Sign Up 01</a></li>
-                                            <li className="nav-item"><a title="Sign Up 02" className="nav-link" href="sign-up-2.html">Sign Up 02</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="dropdown submenu nav-item"><a title="Login" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Login<span className="arrow_carrot-right"></span> </a>
-                                        <ul className=" dropdown-menu">
-                                            <li className="nav-item"><a title="Login 01" className="nav-link" href="login.html">Login 01</a></li>
-                                            <li className="nav-item"><a title="Login 02" className="nav-link" href="login-two.html">Login 02</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item"><a title="FAQ" className="nav-link" href="faq.html">FAQ</a></li>
-                                    <li className="dropdown submenu nav-item"><a title="Contact" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Contact <span className="arrow_carrot-right"></span> </a>
-                                        <ul role="menu" className="dropdown-menu">
-                                            <li className="nav-item"><a title="Contact 01" className="nav-link" href="contact-1.html">Contact 01</a></li>
-                                            <li className="nav-item"><a title="Contact  02" className="nav-link" href="contact-2.html">Contact 02</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item"><a title="Thank You" className="nav-link" href="thanks.html">Thank You</a></li>
-                                    <li className="nav-item"><a title="Coming Soon" className="nav-link" href="coming-soon.html">Coming Soon</a></li>
-                                    <li className="dropdown submenu nav-item"><a title="404" className="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">404<span className="arrow_carrot-right"></span> </a>
-                                        <ul className=" dropdown-menu">
-                                            <li className="nav-item"><a title="404 01" className="nav-link" href="404.html">404 01</a></li>
-                                            <li className="nav-item"><a title="404 02" className="nav-link" href="404-two.html">404 02</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                            <li className="dropdown submenu nav-item">
+                                <a title="Pages" className="dropdown-toggle nav-link" role="button"  href="https://medium.com/devopsng" target="_blank">
+                                    PUBLICATIONS
+                                </a>
                             </li>
                             <li className="nav-item dropdown submenu mega_menu">
                                 <Link to="/meetup" className="nav-link dropdown-toggle" role="button">
