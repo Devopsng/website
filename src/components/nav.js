@@ -17,8 +17,8 @@ function Nav() {
                         {/* <img src="img/logo2.png" srcset="img/logo2x-2.png 2x" alt="logo" /> */}
                         {/* <img src="logo192.png" srcset="img/logo2x.png 2x" alt="" /> */}
                         {/* <img src="logo192.png" alt="" height="70px"/> */}
-                        <img className="invert-img" src="devops.png" alt="" height="100px"/>
-                        <img src="devops.png" alt="" height="100px" />
+                        <img className="invert-img" src="devops-footer.png" alt="" height="50px"/>
+                        <img src="devops-footer.png" alt="" height="58px" />
                     </a>
                     <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="menu_toggle">
