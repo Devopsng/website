@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Footer() {
   return (
@@ -8,14 +9,14 @@ function Footer() {
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="f_widget company_widget">
-                <a href="index.html" className="f-logo">
+                <Link to="/" className="f-logo">
                   <img
                     src="devops-footer.png"
                     // srcset="img/logo2x.png 2x"
                     alt="logo"
                     height="50px"
                   />
-                </a>
+                </Link>
                 <div className="widget-wrap">
                   <p className="f_400 f_p f_size_15 mb-0 l_height34">
                     <span>Email:</span>{" "}
