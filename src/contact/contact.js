@@ -7,7 +7,7 @@ function ContactSection() {
                 <div className="row">
                     <div className="col-lg-3 pr-0">
                         <div className="contact_info_item">
-                            <h6 className="f_p f_size_20 t_color3 f_500 mb_20">Office Address</h6>
+                            <h6 className="f_p f_size_20 t_color3 f_500 mb_20">Address</h6>
                             <p className="f_400 f_size_15">Melbourne’s GPO 434 Bourke St. Dhaka VIC 3074, Australia</p>
                         </div>
                         <div className="contact_info_item">

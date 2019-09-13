@@ -3,8 +3,8 @@ import Nav from "../components/nav";
 import Header from "./header";
 import WhyMeetUp from "./why-meetup";
 import MeetUpList from "./meetups";
-import Sponsors from "../components/footer-sponsor-sub/sponsors";
-import Footer from "../components/footer-sponsor-sub/footer";
+import Sponsors from "../components/sponsors";
+import Footer from "../components/footer";
 
 function MeetUp() {
     return (
