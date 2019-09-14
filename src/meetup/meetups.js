@@ -44,7 +44,7 @@ function MeetUpList() {
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="app_service_item">
-                            <i className="ti-target app_icon one"></i>
+                            <i className="ti-settings app_icon one"></i>
                             <h5 className="f_p f_size_18 f_600 t_color3 mt_40 mb-30">DevOps Ife</h5>
                             <p className="f_400 f_size_15 mb-30">Oxford jolly good cras bugger down the pub blow off
                                 well arse tinkety tonk old fruit William bite your arm off haggle, old it's all gone to
@@ -55,7 +55,7 @@ function MeetUpList() {
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="app_service_item">
-                            <i className="ti-target app_icon two"></i>
+                            <i className="ti-announcement app_icon two"></i>
                             <h5 className="f_p f_size_18 f_600 t_color3 mt_40 mb-30">DevOps Ife</h5>
                             <p className="f_400 f_size_15 mb-30">Oxford jolly good cras bugger down the pub blow off
                                 well arse tinkety tonk old fruit William bite your arm off haggle, old it's all gone to
@@ -66,7 +66,7 @@ function MeetUpList() {
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="app_service_item">
-                            <i className="ti-target app_icon three"></i>
+                            <i className="ti-widget app_icon three"></i>
                             <h5 className="f_p f_size_18 f_600 t_color3 mt_40 mb-30">DevOps Ife</h5>
                             <p className="f_400 f_size_15 mb-30">Oxford jolly good cras bugger down the pub blow off
                                 well arse tinkety tonk old fruit William bite your arm off haggle, old it's all gone to

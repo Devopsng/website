@@ -53,12 +53,12 @@ function Nav() {
                                 </Link>
                             </li>
                             <li className="nav-item dropdown submenu">
-                                <a className="nav-link dropdown-toggle" href="#" role="button">
+                                <Link to="/community" className="nav-link dropdown-toggle" role="button">
                                     THE COMMUNITY
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item dropdown submenu">
-                                <Link to="/contact" className="nav-link dropdown-toggle" href="#" role="button">
+                                <Link to="/contact" className="nav-link dropdown-toggle" role="button">
                                     CONTACT US
                                 </Link>
                             </li>

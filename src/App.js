@@ -12,6 +12,7 @@ import Preloader from './preloader/preloader'
 import Index from './landing'
 import MeetUp from './meetup'
 import Contact from "./contact";
+import Community from "./community";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                   <Route exact path="/" component={Index} />
                   <Route exact path="/meetup" component={MeetUp} />
                   <Route exact path="/contact" component={Contact}/>
+                  <Route exact path="/community" component={Community}/>
               </Switch>
           </HashRouter>
       </div>
