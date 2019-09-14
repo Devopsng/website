@@ -36,31 +36,32 @@ function Nav() {
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav menu w_menu pl_120 ml-auto mr-auto">
-                            <li className="nav-item dropdown submenu mega_menu mega_menu_two active">
-                                <Link to="/" className="nav-link dropdown-toggle" href="#" role="button">
+                            <li className="nav-item">
+                                <NavLink exact activeClassName="active" to="/" className="nav-link" role="button">
                                     HOME
-                                </Link>
+                                </NavLink>
                             </li>
-                            
-                            <li className="dropdown submenu nav-item">
+
+                            <li className="nav-item">
                                 <a title="Pages" className="dropdown-toggle nav-link" role="button"  href="https://medium.com/devopsng" target="_blank">
                                     PUBLICATIONS
                                 </a>
                             </li>
-                            <li className="nav-item dropdown submenu mega_menu">
-                                <Link to="/meetup" className="nav-link dropdown-toggle" role="button">
+
+                            <li className="nav-item">
+                                <NavLink activeClassName="active" to="/meetup" className="nav-link" role="button">
                                     MEETUPS
-                                </Link>
+                                </NavLink>
                             </li>
-                            <li className="nav-item dropdown submenu">
-                                <Link to="/community" className="nav-link dropdown-toggle" role="button">
+                            <li className="nav-item">
+                                <NavLink activeClassName="active" to="/community" className="nav-link" role="button">
                                     THE COMMUNITY
-                                </Link>
+                                </NavLink>
                             </li>
-                            <li className="nav-item dropdown submenu">
-                                <Link to="/contact" className="nav-link dropdown-toggle" role="button">
+                            <li className="nav-item">
+                                <NavLink activeClassName="active" to="/contact" className="nav-link" role="button">
                                     CONTACT US
-                                </Link>
+                                </NavLink>
                             </li>
                         </ul>
                         <a className="btn_get btn_get_radious menu_cus menu_custfive" href="#get-app">Join Us</a>

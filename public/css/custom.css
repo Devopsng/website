@@ -13,8 +13,28 @@
     color: #FFFFFF;
 }
 
+/*Slack Icon hack on homepage - Join us section*/
 .get_content .app_btn.app_btn_one i {
     font-size: 25px;
     padding-right: 10px;
     vertical-align: sub;
 }
+
+
+/*Active link on Navigation hack*/
+.menu > .nav-item .nav-link.active:before {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.w_menu .nav-item:hover .nav-link, .w_menu .nav-item .nav-link.active {
+    color: #fff;
+}
+
+/*.w_menu .nav-item .nav-link.active:before {*/
+/*    background: #fff;*/
+/*}*/
+/*.menu > .nav-item .nav-link.active  {*/
+/*    color: #6754e2;*/
+/*}*/
