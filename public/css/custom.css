@@ -1,16 +1,14 @@
 /**
 
 */
+/*White and black logo hack*/
 .invert-img{
     filter: brightness(0) invert(1);
 }
 
+/*Why join us sectionhack on landing page*/
 .software_featured_area{
     padding-bottom: 50px;
-}
-
-.icon > a{
-    color: #FFFFFF;
 }
 
 /*Slack Icon hack on homepage - Join us section*/
@@ -27,14 +25,3 @@
     left: 0;
     right: auto;
 }
-
-.w_menu .nav-item:hover .nav-link, .w_menu .nav-item .nav-link.active {
-    color: #fff;
-}
-
-/*.w_menu .nav-item .nav-link.active:before {*/
-/*    background: #fff;*/
-/*}*/
-/*.menu > .nav-item .nav-link.active  {*/
-/*    color: #6754e2;*/
-/*}*/
