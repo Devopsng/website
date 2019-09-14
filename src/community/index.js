@@ -5,6 +5,7 @@ import About from "./about";
 import Footer from "../components/footer";
 import Sponsors from "../components/sponsors";
 import Team from "./team";
+import Gallery from "./gallery";
 
 function Community() {
     return (
@@ -13,6 +14,7 @@ function Community() {
             <Header/>
             <About/>
             <Team/>
+            <Gallery/>
             <Sponsors/>
             <Footer/>
         </div>
