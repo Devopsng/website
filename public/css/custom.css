@@ -25,3 +25,9 @@
     left: 0;
     right: auto;
 }
+
+/*Modal correction*/
+.correct_subscribe_form_info{
+    margin: 0;
+    padding: 80px 0;
+}

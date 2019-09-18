@@ -1,4 +1,7 @@
 import React from "react";
+import {Button, Modal, ButtonToolbar} from 'react-bootstrap';
+import JoinSlack from "../modal/slack";
+
 
 function JoinUs() {
     return (
@@ -18,18 +21,23 @@ function JoinUs() {
                     <div className="col-lg-5 offset-lg-1 d-flex align-items-center pl-0">
                         <div className="get_content">
                             <h2 className="f_700 f_p f_size_40 l_height50 mb_20 wow fadeInLeft" data-wow-delay="0.3s">
-                              Join Us on Slack and Telegram
+                                Join Us on Slack and Telegram
                             </h2>
                             <p className="f_400 f_p mb_40 wow fadeInLeft" data-wow-delay="0.4s">
-                              Whether you would like to ask a technical question, collect feedback, invite or chat about random topics, we have a Slack team chat for you.
+                                Whether you would like to ask a technical question, collect feedback, invite or chat
+                                about random topics, we have a Slack team chat for you.
                             </p>
-                            <a href="#" className="app_btn app_btn_one Cus_getapp wow fadeInLeft" data-wow-delay="0.5s">
-                              <i className="fab fa-slack-hash"></i>
-                              Slack
-                            </a>
-                            <a target="_blank" href="https://t.me/joinchat/NhvBqVfiezvNHz56k-aBYg" className="app_btn app_btn_two wow fadeInLeft" data-wow-delay="0.6s">
-                              <i className="fab fa-telegram-plane"></i>
-                              Telegram
+                            {/*<a href="#" className="app_btn app_btn_one Cus_getapp wow fadeInLeft" data-wow-delay="0.5s">*/}
+                            {/*  <i className="fab fa-slack-hash"></i>*/}
+                            {/*  Slack*/}
+                            {/*</a>*/}
+
+                            <JoinSlack/>
+
+                            <a target="_blank" href="https://t.me/joinchat/NhvBqVfiezvNHz56k-aBYg"
+                               className="app_btn app_btn_two wow fadeInLeft" data-wow-delay="0.6s">
+                                <i className="fab fa-telegram-plane"></i>
+                                Telegram
                             </a>
                         </div>
                     </div>
@@ -37,7 +45,7 @@ function JoinUs() {
                 </div>
             </div>
         </section>
-);
+    );
 }
 
 export default JoinUs;
