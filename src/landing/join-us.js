@@ -24,11 +24,10 @@ function JoinUs() {
                               Whether you would like to ask a technical question, collect feedback, invite or chat about random topics, we have a Slack team chat for you.
                             </p>
                             <a href="#" className="app_btn app_btn_one Cus_getapp wow fadeInLeft" data-wow-delay="0.5s">
-                              {/*<img src="img/home7/google_icon.png" alt="" />*/}
                               <i className="fab fa-slack-hash"></i>
                               Slack
                             </a>
-                            <a href="#" className="app_btn app_btn_two wow fadeInLeft" data-wow-delay="0.6s">
+                            <a target="_blank" href="https://t.me/joinchat/NhvBqVfiezvNHz56k-aBYg" className="app_btn app_btn_two wow fadeInLeft" data-wow-delay="0.6s">
                               <i className="fab fa-telegram-plane"></i>
                               Telegram
                             </a>
