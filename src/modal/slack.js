@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Button, Modal} from "react-bootstrap";
+import axios from 'axios';
 
 function JoinSlack() {
     const [modalShow, setModalShow] = React.useState(false);
@@ -24,21 +25,61 @@ function JoinSlack() {
 class MyVerticallyCenteredModal extends Component {
     constructor(props) {
         super(props);
-        this.state = { email: '' };
-    }
+        this.state = {
+            email: '',
+            submitted: false
+        };
+    };
+
     onChange = (event) => {
         this.setState({email: event.target.value});
-    }
+    };
+
     onSubmit = (event) => {
         event.preventDefault();
-        alert("You are submitting " + this.state.email);
-    }
+        // alert("You are submitting " + this.state.email);
+        this.sendSlackInvite(this.state.email)
+    };
 
-    sendSlackInvite = () => {
+    sendSlackInvite = (email) => {
+        let SLACK_TOKEN = process.env.REACT_APP_SLACK_TOKEN;
+        let SLACK_INVITE_ENDPOINT = 'https://slack.com/api/users.admin.invite';
 
-    }
+        let QUERY_PARAMS = `email=${email}&token=${SLACK_TOKEN}&set_active=true`;
+        axios.get(`${SLACK_INVITE_ENDPOINT}?${QUERY_PARAMS}`)
+            .then((res) => {
+                console.log(res);
+                console.log("success");
+                // this.state.submitted = true;
+                this.setState({submitted: true});
 
-    render() {
+            })
+            .catch((error) => {
+                console.log(error);
+            })
+    };
+
+    display = () => {
+        if (this.state.submitted) {
+            return (
+                <Modal
+                    {...this.props}
+                    size="lg"
+                    aria-labelledby="contained-modal-title-vcenter"
+                    centered
+                >
+                    <Modal.Header closeButton>
+                    </Modal.Header>
+                    <Modal.Body>
+                        <div className="download_content thanks_content text-center download_content_modified">
+                            <img src="img/saas/icon/slack.png" alt=""/>
+                            <h3>Thank you for your Joining!</h3>
+                            <p>We’ve sent the invite in your inbox. Let’s get started the awesome things.</p>
+                        </div>
+                    </Modal.Body>
+                </Modal>
+            )
+        }
         return (
             <Modal
                 {...this.props}
@@ -66,7 +107,12 @@ class MyVerticallyCenteredModal extends Component {
                     </div>
                 </Modal.Body>
             </Modal>
-        );
+
+        )
+    };
+
+    render() {
+        return this.display();
     }
 
 }
