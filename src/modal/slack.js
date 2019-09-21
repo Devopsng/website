@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {Button, Modal} from "react-bootstrap";
 import axios from 'axios';
 import SemiPreloader from "../preloader/semi-preloader";
+import {isEmailValid} from "../helper/validator.helper"
 
 function JoinSlack() {
     const [modalShow, setModalShow] = React.useState(false);
@@ -28,19 +29,26 @@ class MyVerticallyCenteredModal extends Component {
         super(props);
         this.state = {
             email: '',
-            submitted: 1
+            submitted: 1,
+            errorClassName: ''
         };
     };
 
     onChange = (event) => {
+        if(!isEmailValid(event.target.value)){
+            this.setState({errorClassName: "error_bar"});
+        }else {
+            this.setState({errorClassName: ""});
+        }
         this.setState({email: event.target.value});
     };
 
     onSubmit = (event) => {
         event.preventDefault();
-        this.setState({submitted: 2});
-        // alert("You are submitting " + this.state.email);
-        this.sendSlackInvite(this.state.email)
+        if(!isEmailValid(this.state.email)){
+            this.setState({submitted: 2});
+            this.sendSlackInvite(this.state.email)
+        }
     };
 
     sendSlackInvite = (email) => {
@@ -52,9 +60,7 @@ class MyVerticallyCenteredModal extends Component {
             .then((res) => {
                 console.log(res);
                 console.log("success");
-                // this.state.submitted = true;
                 this.setState({submitted: 3});
-
             })
             .catch((error) => {
                 this.setState({submitted: 4});
@@ -81,18 +87,17 @@ class MyVerticallyCenteredModal extends Component {
                                     <input
                                         type="text"
                                         name="email"
-                                        className="form-control memail"
+                                        className={`form-control memail ${this.state.errorClassName}`}
                                         placeholder="Your email"
                                         onChange={this.onChange}
                                     />
-                                    <button type="submit" className="btn_hover btn_four mt_40">
+                                    <button disabled={!isEmailValid(this.state.email)} type="submit" className="btn_hover btn_four mt_40">
                                         GET INVITE
                                     </button>
                                 </form>
                             </div>
                         </Modal.Body>
                     </Modal>
-
                 );
             case 2:
                 return (
@@ -147,10 +152,7 @@ class MyVerticallyCenteredModal extends Component {
                 );
             default:
                 return;
-
-
         }
-
     };
 
     render() {

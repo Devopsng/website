@@ -41,3 +41,8 @@
 .download_content_modified img{
     padding-bottom: 20px;
 }
+
+/*input error*/
+.subscribe_form_info .subscribe-form .form-control.error_bar{
+    border-bottom: 1px solid #ff5656;
+}
