@@ -30,7 +30,8 @@ class MyVerticallyCenteredModal extends Component {
         this.state = {
             email: '',
             submitted: 1,
-            errorClassName: ''
+            errorClassName: '',
+            errorMessage: ''
         };
     };
 
@@ -45,7 +46,9 @@ class MyVerticallyCenteredModal extends Component {
 
     onSubmit = (event) => {
         event.preventDefault();
-        if(!isEmailValid(this.state.email)){
+        console.log("onSubmit function")
+        if(isEmailValid(this.state.email)){
+            console.log("onSubmit function inside isEmailValid")
             this.setState({submitted: 2});
             this.sendSlackInvite(this.state.email)
         }
@@ -60,12 +63,30 @@ class MyVerticallyCenteredModal extends Component {
             .then((res) => {
                 console.log(res);
                 console.log("success");
-                this.setState({submitted: 3});
+                if(res.data.ok){
+                    console.log("OK!!!")
+                    this.setState({submitted: 3});
+                }else{
+                    console.log(res.data.error)
+                    this.setState({errorMessage: (res.data.error).split("_").join(" ")});
+                    this.setState({submitted: 1});
+                }
+
             })
             .catch((error) => {
                 this.setState({submitted: 4});
                 console.log(error);
             })
+    };
+
+    displayError = () => {
+        if(this.state.errorMessage){
+            return(
+                <div className="alert alert-danger" role="alert">
+                    {this.state.errorMessage}
+                </div>
+            );
+        }
     };
 
     display = () => {
@@ -84,9 +105,11 @@ class MyVerticallyCenteredModal extends Component {
                                     Join DevOpsNG on Slack
                                 </h2>
                                 <form className="mailchimp subscribe-form" onSubmit={this.onSubmit}>
+                                    {this.displayError()}
                                     <input
                                         type="text"
                                         name="email"
+                                        value={this.state.email}
                                         className={`form-control memail ${this.state.errorClassName}`}
                                         placeholder="Your email"
                                         onChange={this.onChange}
