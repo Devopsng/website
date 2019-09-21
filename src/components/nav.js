@@ -64,7 +64,7 @@ function Nav() {
                                 </NavLink>
                             </li>
                         </ul>
-                        <a className="btn_get btn_get_radious menu_cus menu_custfive" href="#get-app">Join Us</a>
+                        <a className="btn_get btn_get_radious menu_cus menu_custfive" href="/">Join Us</a>
                     </div>
                 </div>
             </nav>

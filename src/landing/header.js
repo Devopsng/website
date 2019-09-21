@@ -17,25 +17,16 @@ function Header() {
                 className="w_color f_size_18 l_height30 mt_30 wow fadeInLeft"
                 data-wow-delay="0.4s"
               >
-                Join thousands of (Software, DevOps, Cloud and Site Reliability) Engineers and IT experts in Africa, 
+                Join thousands of (Software, DevOps, Cloud and Site Reliability) Engineers and IT experts in Africa,
                 Get updated on news and happenings in the community, get must-read articles, chat with like-minded people, get job offers and more.
               </p>
               <div
                 className="action_btn d-flex align-items-center mt_40 wow fadeInLeft"
                 data-wow-delay="0.6s"
               >
-                <a href="#" className="software_banner_btn">
-                  Join Us 
+                <a href="/" className="software_banner_btn">
+                  Join Us
                 </a>
-                {/* <a
-                  href="https://www.youtube.com/watch?v=sU3FkzUKHXU"
-                  className="video_btn popup-youtube"
-                >
-                  <div className="icon">
-                    <i className="ti-control-play"></i>
-                  </div>
-                  <span>Watch Video</span>
-                </a> */}
               </div>
             </div>
           </div>
