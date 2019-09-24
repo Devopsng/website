@@ -12,9 +12,9 @@ function Community() {
         <div className="body_wrapper">
             <Nav />
             <Header/>
-            <About/>
+            {/* <About/>
             <Team/>
-            <Gallery/>
+            <Gallery/> */}
             <Sponsors/>
             <Footer/>
         </div>
