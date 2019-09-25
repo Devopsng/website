@@ -8,7 +8,7 @@ function Header() {
                     <div className="breadcrumb_content text-center">
                         <h1 className="f_p f_700 f_size_50 w_color l_height50 mb_20">DevOp NG</h1>
                         <p className="f_400 w_color f_size_16 l_height26">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores aspernatur, cum cupiditate doloremque eveniet fugit illo ipsum labore maxime molestiae nemo, porro quidem reprehenderit, sunt ut voluptates voluptatibus voluptatum.
+                            Join thousands of (Software, DevOps, Cloud and Site Reliability) Engineers and IT experts in Africa, Get updated on news and happenings in the community, get must-read articles, chat with like-minded people, get job offers and more.
                         </p>
                     </div>
                 </div>
