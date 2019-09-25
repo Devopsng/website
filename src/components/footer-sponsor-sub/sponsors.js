@@ -33,7 +33,7 @@ function Sponsors() {
           </div>
           <div className="logo_item wow fadeInLeft" data-wow-delay="0.6s">
             <a href="#">
-              <img src="img/sponsors/quidax.png" alt="" />
+              <img height="70" src="img/sponsors/quidax.png" alt="" />
             </a>
           </div>
         </div>
