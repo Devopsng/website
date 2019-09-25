@@ -10,44 +10,44 @@ function Sponsors() {
                 <div className="row partner_info">
                     <div className="logo_item wow fadeInLeft" data-wow-delay="0.1s">
                         <a href="#">
-                            <img src="img/home3/logo_01.png" alt="" />
+                            <img src="img/sponsors/aws.png" alt="" />
                         </a>
                     </div>
                     <div className="logo_item wow fadeInLeft" data-wow-delay="0.2s">
                         <a href="#">
-                            <img src="img/home3/logo_02.png" alt="" />
+                            <img src="img/sponsors/microsoft.png" alt="" />
                         </a>
                     </div>
                     <div className="logo_item wow fadeInLeft" data-wow-delay="0.3s">
                         <a href="#">
-                            <img src="img/home3/logo_03.png" alt="" />
+                            <img src="img/sponsors/KorapayLogo.png" alt="" />
                         </a>
                     </div>
                     <div className="logo_item wow fadeInLeft" data-wow-delay="0.4s">
                         <a href="#">
-                            <img src="img/home3/logo_04.png" alt="" />
+                            <img src="img/sponsors/terragon.png" alt="" />
                         </a>
                     </div>
                     <div className="logo_item wow fadeInLeft" data-wow-delay="0.5s">
                         <a href="#">
-                            <img src="img/home3/logo_05.png" alt="" />
+                            <img src="img/sponsors/seamfix-logo.png" alt="" />
                         </a>
                     </div>
                     <div className="logo_item wow fadeInLeft" data-wow-delay="0.6s">
                         <a href="#">
-                            <img src="img/home3/logo_03.png" alt="" />
+                            <img src="img/sponsors/quidax.png" alt="" />
                         </a>
                     </div>
-                    <div className="logo_item wow fadeInLeft" data-wow-delay="0.7s">
+                    {/* <div className="logo_item wow fadeInLeft" data-wow-delay="0.7s">
                         <a href="#">
-                            <img src="img/home3/logo_04.png" alt="" />
+                            <img src="img/sponsors/microsoft.png" alt="" />
                         </a>
                     </div>
                     <div className="logo_item wow fadeInLeft" data-wow-delay="0.8s">
                         <a href="#">
-                            <img src="img/home3/logo_05.png" alt="" />
+                            <img src="img/sponsors/microsoft.png" alt="" />
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

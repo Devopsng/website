@@ -52,20 +52,20 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="f_widget about-widget pl_40">
-                <h3 className="f-title f_600 t_color f_size_18 mb_40">
+                {/* <h3 className="f-title f_600 t_color f_size_18 mb_40">
                   About Us
-                </h3>
+                </h3> */}
                 <ul className="list-unstyled f_list">
                   <li>
-                    <a href="#">Company</a>
+                    <a href="#">Join Us</a>
                   </li>
                   <li>
-                    <a href="#">Leadership</a>
+                    <a href="#">About</a>
                   </li>
                   <li>
-                    <a href="#">Diversity</a>
+                    <a href="#">Sponsors</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">Jobs</a>
                   </li>
                   <li>
@@ -73,26 +73,26 @@ function Footer() {
                   </li>
                   <li>
                     <a href="#">Wavelength</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="f_widget about-widget">
-                <h3 className="f-title f_600 t_color f_size_18 mb_40">
+                {/* <h3 className="f-title f_600 t_color f_size_18 mb_40">
                   Workflow Solutions
-                </h3>
+                </h3> */}
                 <ul className="list-unstyled f_list">
                   <li>
-                    <a href="#">Project Management</a>
+                    <a href="#">Meetups</a>
                   </li>
                   <li>
-                    <a href="#">Agile</a>
+                    <a href="#">Blog</a>
                   </li>
                   <li>
-                    <a href="#">Task Management</a>
+                    <a href="#">Job Board</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">Reporting</a>
                   </li>
                   <li>
@@ -100,23 +100,23 @@ function Footer() {
                   </li>
                   <li>
                     <a href="#">See All Uses</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="f_widget about-widget">
-                <h3 className="f-title f_600 t_color f_size_18 mb_40">
+                {/* <h3 className="f-title f_600 t_color f_size_18 mb_40">
                   Team Solutions
-                </h3>
+                </h3> */}
                 <ul className="list-unstyled f_list">
                   <li>
-                    <a href="#">Engineering</a>
+                    <a href="#">Privacy</a>
                   </li>
                   <li>
-                    <a href="#">Designers</a>
+                    <a href="#">Terms</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">Sales</a>
                   </li>
                   <li>
@@ -127,7 +127,7 @@ function Footer() {
                   </li>
                   <li>
                     <a href="#">See All Teams</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -148,7 +148,7 @@ function Footer() {
                 <a href="#">
                   <i className="ti-linkedin"></i>
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/devopsng">
                   <i className="ti-twitter-alt"></i>
                 </a>
                 <a href="#">
