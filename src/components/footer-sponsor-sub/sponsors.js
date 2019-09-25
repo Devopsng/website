@@ -41,7 +41,7 @@ function Sponsors() {
         <div className="subscribe_form_info text-center">
           <h2 className="f_600 f_size_30 l_height30 t_color3 mb_50">Get notified about upcoming Meetups</h2>
           <form className="mailchimp subscribe-form" method="post">
-            <input type="text" name="EMAIL" className="form-control memail" placeholder="Your email" />
+            <input type="text" name="email" className="form-control memail" placeholder="Your email" />
             <button type="submit" className="btn_hover btn_four mt_40">
               Subscribe
             </button>
