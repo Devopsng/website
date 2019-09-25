@@ -13,7 +13,7 @@ function Community() {
             <Nav />
             <Header/>
             <About/>
-            <Team/>
+            {/*<Team/>*/}
             <Gallery/>
             <Sponsors/>
             <Footer/>

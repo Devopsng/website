@@ -8,16 +8,14 @@ function ContactSection() {
                     <div className="col-lg-3 pr-0">
                         <div className="contact_info_item">
                             <h6 className="f_p f_size_20 t_color3 f_500 mb_20">Address</h6>
-                            <p className="f_400 f_size_15">Melbourne’s GPO 434 Bourke St. Dhaka VIC 3074, Australia</p>
+                            <p className="f_400 f_size_15">Lagos, Nigeria</p>
                         </div>
                         <div className="contact_info_item">
                             <h6 className="f_p f_size_20 t_color3 f_500 mb_20">Contact Info</h6>
                             <p className="f_400 f_size_15"><span className="f_400 t_color3">Phone:</span> <a
-                                href="tel:3024437488">(+096) 302 443 7488</a></p>
-                            <p className="f_400 f_size_15"><span className="f_400 t_color3">Fax:</span> <a
-                                href="tel:3024437488">(+096) 204 353 6684</a></p>
+                                href="tel:3024437488">+234 816 8087 807</a></p>
                             <p className="f_400 f_size_15"><span className="f_400 t_color3">Email:</span> <a
-                                href="mailto:saasland@gmail.com">saasland@gmail.com</a></p>
+                                href="mailto:saasland@gmail.com">info@devops.ng</a></p>
                         </div>
                     </div>
                     <div className="col-lg-8 offset-lg-1">
