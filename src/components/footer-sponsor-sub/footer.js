@@ -57,7 +57,7 @@ function Footer() {
                 </h3> */}
                 <ul className="list-unstyled f_list">
                   <li>
-                    <a href="#">Join Us</a>
+                    <a href="https://www.meetup.com/Devops-Nigeria/" target="_blank">Join Us</a>
                   </li>
                   <li>
                     <a href="#">About</a>
@@ -139,7 +139,7 @@ function Footer() {
           <div className="row">
             <div className="col-lg-4 col-md-5 col-sm-6">
               <p className="mb-0 f_400">
-                Copyright © 2019 
+                Copyright © 2019
                 {/* Desing by <a href="#">DroitThemes</a> */}
               </p>
             </div>

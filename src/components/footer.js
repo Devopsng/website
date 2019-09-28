@@ -57,7 +57,7 @@ function Footer() {
                                 </h3> */}
                                 <ul className="list-unstyled f_list">
                                     <li>
-                                        <a href="#">Join Us</a>
+                                        <a href="https://www.meetup.com/Devops-Nigeria/" target="_blank">Join Us</a>
                                     </li>
                                     <li>
                                         <a href="#">About</a>

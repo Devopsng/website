@@ -12,62 +12,83 @@ function Gallery() {
                 <div className="row portfolio_gallery ml-0 mr-0" id="work-portfolio">
                     <div className="col-lg-3 portfolio_item br ux p0">
                         <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_1.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div className="col-lg-3 portfolio_item fashion web p0">
-                        <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_2.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div className="col-lg-3 portfolio_item product br p0">
-                        <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_3.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div className="col-lg-3 portfolio_item ux web p0">
-                        <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_4.jpg" alt="" />
+                            <img src="img/gallery/IMG_0064.JPG" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-3 portfolio_item br ux p0">
                         <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_5.jpg" alt="" />
+                            <img src="img/gallery/IMG_0042.JPG" alt="" />
                         </div>
                     </div>
-                    <div className="col-lg-3 portfolio_item fashion web p0">
+                    <div className="col-lg-3 portfolio_item br ux p0">
                         <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_6.jpg" alt="" />
+                            <img src="img/gallery/IMG_0105.JPG" alt="" />
                         </div>
                     </div>
-                    <div className="col-lg-3 portfolio_item product br p0">
+                    <div className="col-lg-3 portfolio_item br ux p0">
                         <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_7.jpg" alt="" />
+                            <img src="img/gallery/IMG_0106.JPG" alt="" />
                         </div>
                     </div>
-                    <div className="col-lg-3 portfolio_item ux web p0">
+                    <div className="col-lg-3 portfolio_item br ux p0">
                         <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_8.jpg" alt="" />
+                            <img src="img/gallery/IMG_0107.JPG" alt="" />
                         </div>
                     </div>
-                    <div className="col-lg-3 portfolio_item ux web p0">
+                    <div className="col-lg-3 portfolio_item br ux p0">
                         <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_9.jpg" alt="" />
+                            <img src="img/gallery/IMG_0058.JPG" alt="" />
                         </div>
                     </div>
-                    <div className="col-lg-3 portfolio_item product br p0">
+                    <div className="col-lg-3 portfolio_item br ux p0">
                         <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_10.jpg" alt="" />
+                            <img src="img/gallery/IMG_0112.JPG" alt="" />
                         </div>
                     </div>
-                    <div className="col-lg-3 portfolio_item ux web p0">
+                    <div className="col-lg-3 portfolio_item br ux p0">
                         <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_11.jpg" alt="" />
+                            <img src="img/gallery/IMG_0113.JPG" alt="" />
                         </div>
                     </div>
-                    <div className="col-lg-3 portfolio_item ux web p0">
+                    <div className="col-lg-3 portfolio_item br ux p0">
                         <div className="portfolio_img">
-                            <img src="img/portfolio/full-width/full_12.jpg" alt="" />
+                            <img src="img/gallery/IMG_0117.JPG" alt="" />
+                        </div>
+                    </div>
+                    <div className="col-lg-3 portfolio_item br ux p0">
+                        <div className="portfolio_img">
+                            <img src="img/gallery/IMG_0118.JPG" alt="" />
+                        </div>
+                    </div>
+                    <div className="col-lg-3 portfolio_item br ux p0">
+                        <div className="portfolio_img">
+                            <img src="img/gallery/IMG_0123.JPG" alt="" />
+                        </div>
+                    </div>
+                    <div className="col-lg-3 portfolio_item br ux p0">
+                        <div className="portfolio_img">
+                            <img src="img/gallery/IMG_0124.JPG" alt="" />
+                        </div>
+                    </div>
+                    <div className="col-lg-3 portfolio_item br ux p0">
+                        <div className="portfolio_img">
+                            <img src="img/gallery/IMG_0125.JPG" alt="" />
+                        </div>
+                    </div>
+                    <div className="col-lg-3 portfolio_item br ux p0">
+                        <div className="portfolio_img">
+                            <img src="img/gallery/Copy of IMG_0039.JPG" alt="" />
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 portfolio_item br ux p0">
+                        <div className="portfolio_img">
+                            <img src="img/gallery/Copy of IMG_0076.JPG" alt="" />
+                        </div>
+                    </div>
+                    <div className="col-lg-3 portfolio_item br ux p0">
+                        <div className="portfolio_img">
+                            <img src="img/gallery/Copy of IMG_0087.JPG" alt="" />
                         </div>
                     </div>
                 </div>
