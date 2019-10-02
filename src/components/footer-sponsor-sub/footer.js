@@ -31,23 +31,23 @@ function Footer() {
                     </a>
                   </p>
                 </div>
-                <form
-                  action="#"
-                  className="f_subscribe mailchimp_two"
-                  method="post"
-                >
-                  <input
-                    type="text"
-                    name="EMAIL"
-                    className="form-control memail"
-                    placeholder="Email"
-                  />
-                  <button className="btn btn-submit" type="submit">
-                    <i className="ti-arrow-right"></i>
-                  </button>
+                {/*<form*/}
+                {/*  action="#"*/}
+                {/*  className="f_subscribe mailchimp_two"*/}
+                {/*  method="post"*/}
+                {/*>*/}
+                {/*  <input*/}
+                {/*    type="text"*/}
+                {/*    name="EMAIL"*/}
+                {/*    className="form-control memail"*/}
+                {/*    placeholder="Email"*/}
+                {/*  />*/}
+                {/*  <button className="btn btn-submit" type="submit">*/}
+                {/*    <i className="ti-arrow-right"></i>*/}
+                {/*  </button>*/}
                   {/* <p className="mchimp-errmessage" style="display: none;"></p> */}
                   {/* <p className="mchimp-sucmessage" style="display: none;"></p> */}
-                </form>
+                {/*</form>*/}
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -57,13 +57,13 @@ function Footer() {
                 </h3> */}
                 <ul className="list-unstyled f_list">
                   <li>
-                    <a href="#">Join Us</a>
+                    <a href="https://www.meetup.com/Devops-Nigeria/" target="_blank">Join Us</a>
                   </li>
                   <li>
-                    <a href="#">About</a>
+                    <Link to="/community" >About</Link>
                   </li>
                   <li>
-                    <a href="#">Sponsors</a>
+                    <Link to="#">Sponsors</Link>
                   </li>
                   {/* <li>
                     <a href="#">Jobs</a>
@@ -83,14 +83,14 @@ function Footer() {
                   Workflow Solutions
                 </h3> */}
                 <ul className="list-unstyled f_list">
+                  {/*<li>*/}
+                  {/*    <a href="#">Job Board</a>*/}
+                  {/*</li>*/}
                   <li>
-                    <a href="#">Meetups</a>
+                    <a href="https://medium.com/devopsng" target="_blank">Blog</a>
                   </li>
                   <li>
-                    <a href="#">Blog</a>
-                  </li>
-                  <li>
-                    <a href="#">Job Board</a>
+                    <Link to="/meetup">Meetups</Link>
                   </li>
                   {/* <li>
                     <a href="#">Reporting</a>
@@ -110,12 +110,13 @@ function Footer() {
                   Team Solutions
                 </h3> */}
                 <ul className="list-unstyled f_list">
-                  <li>
-                    <a href="#">Privacy</a>
-                  </li>
-                  <li>
-                    <a href="#">Terms</a>
-                  </li>
+                  {/*<li>*/}
+                  {/*  <a href="#">Privacy</a>*/}
+                  {/*</li>*/}
+                  {/*<li>*/}
+                  {/*  <a href="#">Terms</a>*/}
+                  {/*</li>*/}
+
                   {/* <li>
                     <a href="#">Sales</a>
                   </li>
@@ -139,7 +140,7 @@ function Footer() {
           <div className="row">
             <div className="col-lg-4 col-md-5 col-sm-6">
               <p className="mb-0 f_400">
-                Copyright © 2019 
+                Copyright © 2019
                 {/* Desing by <a href="#">DroitThemes</a> */}
               </p>
             </div>

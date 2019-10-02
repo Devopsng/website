@@ -24,7 +24,7 @@ function Header() {
                 className="action_btn d-flex align-items-center mt_40 wow fadeInLeft"
                 data-wow-delay="0.6s"
               >
-                <a href="/" className="software_banner_btn">
+                <a href="https://www.meetup.com/Devops-Nigeria/" target="_blank" className="software_banner_btn">
                   Join Us
                 </a>
               </div>
