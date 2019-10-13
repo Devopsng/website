@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {isEmailValid, isOnlyText} from "../helper/validator.helper"
+import {isEmailValid, isOnlyText, isAlphaNumeric} from "../helper/validator.helper"
 
 class ContactSection extends Component{
   constructor(props){
@@ -7,6 +7,12 @@ class ContactSection extends Component{
     this.state = {
       isvalid: false,
       contact: {
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      },
+      error: {
         name: '',
         email: '',
         subject: '',
@@ -23,16 +29,98 @@ class ContactSection extends Component{
 
   onChange = (event) => {
     const { name, value} = event.target;
+    console.log("name", name)
     this.setState(prevState => ({
       contact: {
         ...prevState.contact,
         [name]: value
-      }}))
+      }}));
+
+    this.setState(prevState => ({
+      error: {
+        ...prevState.error,
+        [name]: value
+      }
+    }));
+
+    switch (name) {
+      case 'name':
+        if(!isOnlyText(value)){
+          this.setState(prevState => ({
+            error: {
+              ...prevState.error,
+              name: 'error_bar'
+            }
+          }));
+        }else{
+          this.setState(prevState => ({
+            error: {
+              ...prevState.error,
+              name: ''
+            }
+          }));
+        }
+        break;
+      case 'email':
+        if(!isEmailValid(value)){
+          this.setState(prevState => ({
+            error: {
+              ...prevState.error,
+              email: 'error_bar'
+            }
+          }));
+        }else{
+          this.setState(prevState => ({
+            error: {
+              ...prevState.error,
+              email: ''
+            }
+          }));
+        }
+        break;
+      case 'subject':
+        if(!isAlphaNumeric(value)){
+          this.setState(prevState => ({
+            error: {
+              ...prevState.error,
+              subject: 'error_bar'
+            }
+          }));
+        }else{
+          this.setState(prevState => ({
+            error: {
+              ...prevState.error,
+              subject: ''
+            }
+          }));
+        }
+        break;
+      case 'message':
+        if(!isAlphaNumeric(value)){
+          this.setState(prevState => ({
+            error: {
+              ...prevState.error,
+              message: 'error_bar'
+            }
+          }));
+        }else{
+          this.setState(prevState => ({
+            error: {
+              ...prevState.error,
+              message: ''
+            }
+          }));
+        }
+        break;
+      default:
+        return;
+    }
   };
 
 
   render() {
-    const { contact } = this.state;
+    const { contact, error } = this.state;
+
     return (
         <section className="contact_info_area sec_pad bg_color">
           <div className="container">
@@ -78,6 +166,7 @@ class ContactSection extends Component{
                                  value={contact.name}
                                  onChange={this.onChange}
                                  // className={`${isOnlyText() ? "error_bar" : ""}`}
+                                 className={ `${error.name}`}
                           />
                         </div>
                       </div>
@@ -87,6 +176,7 @@ class ContactSection extends Component{
                                  id="email" placeholder="Your Email"
                                  value={contact.email}
                                  onChange={this.onChange}
+                                 className={ `${error.email}`}
                           />
                         </div>
                       </div>
@@ -96,6 +186,7 @@ class ContactSection extends Component{
                                  placeholder="Subject"
                                  value={contact.subject}
                                  onChange={this.onChange}
+                                 className={ `${error.subject}`}
                           />
                         </div>
                       </div>
@@ -108,6 +199,7 @@ class ContactSection extends Component{
                             rows="10"
                             placeholder="Enter Your Message . . ."
                             onChange={this.onChange}
+                            className={ `${error.message}`}
                         >
                           {contact.message}
                         </textarea>

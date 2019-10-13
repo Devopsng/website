@@ -47,6 +47,6 @@
     border-bottom: 1px solid #ff5656;
 }
 
-input[type="text"] .error_bar{
-    border-bottom: 1px solid #ff5656;
+.text_box input[type="text"].error_bar {
+    border: 2px solid #ff5656 !important;
 }

@@ -4,9 +4,13 @@ export const isEmailValid = (email) => {
     return regExp.test(String(email).toLowerCase());
 };
 
-export const isOnlyText = () => {
-    return true;
+export const isOnlyText = (text) => {
+    let regExp = /^[A-Za-z ]+$/;
+    return regExp.test(String(text));
 };
 
-export const isAlphaNumer = () => {};
+export const isAlphaNumeric = (text) => {
+    let regExp = /^[A-Za-z 0-9]+$/;
+    return regExp.test(String(text));
+};
 
