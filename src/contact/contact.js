@@ -5,7 +5,7 @@ class ContactSection extends Component{
   constructor(props){
     super(props);
     this.state = {
-      isvalid: false,
+      isValid: false,
       contact: {
         name: '',
         email: '',
@@ -17,8 +17,7 @@ class ContactSection extends Component{
         email: '',
         subject: '',
         message: '',
-      },
-      errorClassName: ''
+      }
     }
   }
 
@@ -29,7 +28,6 @@ class ContactSection extends Component{
 
   onChange = (event) => {
     const { name, value} = event.target;
-    console.log("name", name)
     this.setState(prevState => ({
       contact: {
         ...prevState.contact,
@@ -45,7 +43,7 @@ class ContactSection extends Component{
 
     switch (name) {
       case 'name':
-        if(!isOnlyText(value)){
+        if(!isOnlyText(value) && value){
           this.setState(prevState => ({
             error: {
               ...prevState.error,
@@ -115,6 +113,13 @@ class ContactSection extends Component{
       default:
         return;
     }
+
+    if(!this.state.error.name && !this.state.error.email && !this.state.error.subject && !this.state.error.message &&
+      this.state.contact.name && this.state.contact.email && this.state.contact.subject && this.state.contact.message){
+      this.setState({isValid: true});
+    }else{
+      this.setState({isValid: false});
+    }
   };
 
 
@@ -165,7 +170,6 @@ class ContactSection extends Component{
                                  placeholder="Your Name"
                                  value={contact.name}
                                  onChange={this.onChange}
-                                 // className={`${isOnlyText() ? "error_bar" : ""}`}
                                  className={ `${error.name}`}
                           />
                         </div>
@@ -206,7 +210,9 @@ class ContactSection extends Component{
                         </div>
                       </div>
                     </div>
-                    <button type="submit" className="btn_three">
+                    <button
+                        disabled={!this.state.isValid}
+                        type="submit" className="btn_three">
                       Send Message
                     </button>
                   </form>
