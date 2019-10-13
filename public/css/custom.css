@@ -46,3 +46,7 @@
 .subscribe_form_info .subscribe-form .form-control.error_bar{
     border-bottom: 1px solid #ff5656;
 }
+
+input[type="text"] .error_bar{
+    border-bottom: 1px solid #ff5656;
+}

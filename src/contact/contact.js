@@ -1,16 +1,38 @@
 import React, {Component} from "react";
+import {isEmailValid, isOnlyText} from "../helper/validator.helper"
 
 class ContactSection extends Component{
   constructor(props){
     super(props);
-    this.state = {}
+    this.state = {
+      isvalid: false,
+      contact: {
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      },
+      errorClassName: ''
+    }
   }
 
   onSubmit = (event) => {
-
+    event.preventDefault();
+    console.log(this.state.contact)
   };
 
+  onChange = (event) => {
+    const { name, value} = event.target;
+    this.setState(prevState => ({
+      contact: {
+        ...prevState.contact,
+        [name]: value
+      }}))
+  };
+
+
   render() {
+    const { contact } = this.state;
     return (
         <section className="contact_info_area sec_pad bg_color">
           <div className="container">
@@ -45,21 +67,36 @@ class ContactSection extends Component{
                       method="post"
                       id="contactForm"
                       noValidate="novalidate"
+                      onSubmit={this.onSubmit}
                   >
                     <div className="row">
                       <div className="col-lg-6">
                         <div className="form-group text_box">
-                          <input type="text" id="name" name="name" placeholder="Your Name" />
+                          <input type="text"
+                                 id="name" name="name"
+                                 placeholder="Your Name"
+                                 value={contact.name}
+                                 onChange={this.onChange}
+                                 // className={`${isOnlyText() ? "error_bar" : ""}`}
+                          />
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group text_box">
-                          <input type="text" name="email" id="email" placeholder="Your Email" />
+                          <input type="text" name="email"
+                                 id="email" placeholder="Your Email"
+                                 value={contact.email}
+                                 onChange={this.onChange}
+                          />
                         </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="form-group text_box">
-                          <input type="text" id="subject" name="subject" placeholder="Subject" />
+                          <input type="text" id="subject" name="subject"
+                                 placeholder="Subject"
+                                 value={contact.subject}
+                                 onChange={this.onChange}
+                          />
                         </div>
                       </div>
                       <div className="col-lg-12">
@@ -70,7 +107,10 @@ class ContactSection extends Component{
                             cols="30"
                             rows="10"
                             placeholder="Enter Your Message . . ."
-                        ></textarea>
+                            onChange={this.onChange}
+                        >
+                          {contact.message}
+                        </textarea>
                         </div>
                       </div>
                     </div>
