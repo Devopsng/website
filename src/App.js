@@ -14,6 +14,7 @@ import Index from './landing'
 import MeetUp from './meetup'
 import Contact from "./contact";
 import Community from "./community";
+import Register from './register';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
                   <Route exact path="/meetup" component={MeetUp} />
                   <Route exact path="/contact" component={Contact}/>
                   <Route exact path="/community" component={Community}/>
+                  <Route exact path="/register" component={Register}/>
               </Switch>
           </HashRouter>
       </div>

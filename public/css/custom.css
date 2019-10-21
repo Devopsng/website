@@ -46,3 +46,14 @@
 .subscribe_form_info .subscribe-form .form-control.error_bar{
     border-bottom: 1px solid #ff5656;
 }
+
+.text_box input[type="text"].error_bar {
+    border: 2px solid #ff5656 !important;
+}
+
+
+
+/*Registration page*/
+.login_wrapper{
+    padding: 0 10px;
+}
