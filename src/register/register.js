@@ -6,7 +6,7 @@ class RegisterComponent extends Component {
   constructor(props){
     super(props);
     this.state = {
-      baseUrl: process.env.BASE_ENDPOINT,
+      baseUrl: process.env.REACT_APP_BASE_ENDPOINT,
       isValid: false,
       user: {
         fname: '',
@@ -160,10 +160,24 @@ class RegisterComponent extends Component {
   onSubmit = (event) => {
     event.preventDefault();
     console.log(this.state.user)
+    this.save();
   };
 
-  save = (payload) => {
+  save = () => {
+    console.log("this.state.baseUrl", this.state.baseUrl);
 
+    axios.post(this.state.baseUrl, {
+      body: {
+        name: "REGISTRATION",
+        reply_to: "idowu.emehinola@devops.ng",
+        message: JSON.stringify(this.state.user)
+      }
+    }).then((res) => {
+      console.log("res", res);
+    })
+    .catch((error) => {
+      console.log(error);
+    })
   };
 
   render() {
@@ -246,7 +260,7 @@ class RegisterComponent extends Component {
 
                 <div>
                   <button
-                      disabled={!this.state.isValid}
+                      // disabled={!this.state.isValid}
                       type="submit" className="btn_three">
                     Register
                   </button>

@@ -64,7 +64,10 @@ function Nav() {
                                 </NavLink>
                             </li>
                         </ul>
-                        <a className="btn_get btn_get_radious menu_cus menu_custfive" href="https://www.meetup.com/Devops-Nigeria/" target="_blank">Join Us</a>
+                        <a className="btn_get btn_get_radious menu_cus menu_custfive" href="https://www.meetup.com/Devops-Nigeria/events/265747549/" target="_blank">
+                            {/*Join Us*/}
+                            Register!
+                        </a>
                     </div>
                 </div>
             </nav>
