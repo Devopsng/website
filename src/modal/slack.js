@@ -46,9 +46,8 @@ class MyVerticallyCenteredModal extends Component {
 
     onSubmit = (event) => {
         event.preventDefault();
-        console.log("onSubmit function")
         if(isEmailValid(this.state.email)){
-            console.log("onSubmit function inside isEmailValid")
+            console.log("onSubmit function inside isEmailValid");
             this.setState({submitted: 2});
             this.sendSlackInvite(this.state.email)
         }
