@@ -5,9 +5,8 @@ function Gallery() {
         <section className="portfolio_fullwidth_area bg_color">
             <div className="container-fluid pl-0 pr-0">
                 <div className="sec_title text-center mb_70">
-                    <h2 className="f_p f_size_30 l_height30 f_700 t_color3 mb_20">#SayCheese</h2>
-                    <p className="f_400 f_size_16">Why I say old chap that is spiffing barney, nancy boy bleeder chimney<br /> pot
-                        richard cheers the little rotter.!</p>
+                    <h2 className="f_p f_size_30 l_height30 f_700 t_color3 mb_20">#SayCheese📸📸📸</h2>
+                    <p className="f_400 f_size_16">Take a glance at some of the amazing pictures📸 from our past meetups and conferences😎😎😎😎!</p>
                 </div>
                 <div className="row portfolio_gallery ml-0 mr-0" id="work-portfolio">
                     <div className="col-lg-3 portfolio_item br ux p0">
