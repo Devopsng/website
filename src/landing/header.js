@@ -11,10 +11,10 @@ function Header() {
                 className="f_500 f_size_50 w_color wow fadeInLeft"
                 data-wow-delay="0.2s"
               >
-                <span className="f_700">DevOps Nigeria Conference</span>
+                <span className="f_700 head">DevOps Nigeria Conference</span>
               </h2>
               <p
-                className="w_color f_size_18 l_height30 mt_30 wow fadeInLeft"
+                className="w_color f_size_18 l_height30 mt_30 wow fadeInLeft desp"
                 data-wow-delay="0.4s"
               >
                 {/*Join thousands of (Software, DevOps, Cloud and Site Reliability) Engineers and IT experts in Africa,*/}
