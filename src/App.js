@@ -33,7 +33,8 @@ function App() {
                   <Route exact path="/meetup" component={MeetUp} />
                   <Route exact path="/contact" component={Contact}/>
                   <Route exact path="/community" component={Community}/>
-                  <Route exact path="/register" component={Register}/>
+                  {/*<Route exact path="/register" component={Register}/>*/}
+
               </Switch>
           </HashRouter>
       </div>
