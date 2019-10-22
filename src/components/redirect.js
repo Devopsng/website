@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Preloader from "../preloader/preloader";
 
 export class Redirect extends Component {
     constructor( props ){
@@ -6,10 +7,13 @@ export class Redirect extends Component {
         this.state = { ...props };
     }
     componentWillMount(){
-        window.location = this.state.route.loc;
+        console.log(this.state);
+        window.location = 'https://www.meetup.com/Devops-Nigeria/events/265747549';
     }
     render(){
-        return (<section>Redirecting...</section>);
+        return (
+            <Preloader/>
+        );
     }
 }
 

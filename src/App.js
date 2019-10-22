@@ -6,7 +6,6 @@ import {
     BrowserRouter as Router,
     Switch,
     HashRouter,
-    Redirect
 } from 'react-router-dom';
 import './App.css';
 import Preloader from './preloader/preloader'
@@ -15,6 +14,7 @@ import MeetUp from './meetup'
 import Contact from "./contact";
 import Community from "./community";
 import Register from './register';
+import Redirect from './components/redirect'
 
 function App() {
   return (
@@ -34,7 +34,10 @@ function App() {
                   <Route exact path="/contact" component={Contact}/>
                   <Route exact path="/community" component={Community}/>
                   {/*<Route exact path="/register" component={Register}/>*/}
-
+                  <Route
+                      path="/register"
+                      component={ Redirect }
+                  />
               </Switch>
           </HashRouter>
       </div>
