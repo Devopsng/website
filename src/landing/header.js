@@ -31,6 +31,10 @@ function Header() {
                   {/*Join Us*/}
                   Register!
                 </a>
+                <a href="https://www.papercall.io/devopsconference" target="_blank" className="speak_btn">
+                  {/*Join Us*/}
+                  Become a Speaker
+                </a>
               </div>
             </div>
           </div>
