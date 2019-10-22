@@ -24,22 +24,22 @@ function App() {
   //  {/*</div>*/}
       <div>
           <Preloader/>
-          <Router>
-              {/*<Switch>*/}
+          <HashRouter>
+              <Switch>
                   {/*<Route path="/home" exact>*/}
                   {/*    <Redirect to="/" />*/}
                   {/*</Route>*/}
                   <Route exact path="/" component={Index} />
-                  <Route path="/meetup" component={MeetUp} />
-                  <Route path="/contact" component={Contact}/>
-                  <Route path="/community" component={Community}/>
+                  <Route exact path="/meetup" component={MeetUp} />
+                  <Route exact path="/contact" component={Contact}/>
+                  <Route exact path="/community" component={Community}/>
                   {/*<Route exact path="/register" component={Register}/>*/}
                   <Route
                       path="/register"
                       component={ Redirect }
                   />
-              {/*</Switch>*/}
-          </Router>
+              </Switch>
+          </HashRouter>
       </div>
     // <div className="App">
     //   <header className="App-header">
