@@ -42,12 +42,12 @@ function Nav() {
                             {/*    </NavLink>*/}
                             {/*</li>*/}
                             <li className="nav-item">
-                                <NavLink activeClassName="active" to="/meetup" className="nav-link" role="button">
+                                <NavLink activeClassName="active" to="/schedule" className="nav-link" role="button">
                                     SCHEDULE
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink activeClassName="active" to="/meetup" className="nav-link" role="button">
+                                <NavLink activeClassName="active" to="/speakers" className="nav-link" role="button">
                                     SPEAKERS
                                 </NavLink>
                             </li>
