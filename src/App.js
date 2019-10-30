@@ -15,6 +15,7 @@ import Contact from "./contact";
 import Community from "./community";
 import Register from './register';
 import Redirect from './components/redirect'
+import Speakers from "./speakers";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
                   <Route path="/meetup" component={MeetUp} />
                   <Route path="/contact" component={Contact}/>
                   <Route path="/community" component={Community}/>
+                  <Route path="/speakers" component={Speakers}/>
                   {/*<Route exact path="/register" component={Register}/>*/}
                   <Route
                       path="/register"
