@@ -36,9 +36,14 @@ function App() {
                   <Route path="/community" component={Community}/>
                   <Route path="/speakers" component={Speakers}/>
                   {/*<Route exact path="/register" component={Register}/>*/}
+                  {/*<Route*/}
+                  {/*    path="/register"*/}
+                  {/*    component={ Redirect }*/}
+                  {/*    loc={ "google.com" }*/}
+                  {/*/>*/}
                   <Route
                       path="/register"
-                      component={ Redirect }
+                      render={(props) => <Redirect {...props} location={ "https://www.meetup.com/Devops-Nigeria/events/265747549" } />}
                   />
               {/*</Switch>*/}
           </Router>
