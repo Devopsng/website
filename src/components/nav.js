@@ -36,38 +36,74 @@ function Nav() {
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav menu w_menu pl_120 ml-auto mr-auto">
+                            {/*<li className="nav-item">*/}
+                            {/*    <NavLink exact activeClassName="active" to="/" className="nav-link" role="button">*/}
+                            {/*        HOME*/}
+                            {/*    </NavLink>*/}
+                            {/*</li>*/}
                             <li className="nav-item">
-                                <NavLink exact activeClassName="active" to="/" className="nav-link" role="button">
-                                    HOME
+                                <NavLink activeClassName="active" to="/schedule" className="nav-link" role="button">
+                                    SCHEDULE
                                 </NavLink>
                             </li>
-
                             <li className="nav-item">
-                                <a title="Pages" className="dropdown-toggle nav-link" role="button"  href="https://medium.com/devopsng" target="_blank">
-                                    PUBLICATIONS
-                                </a>
-                            </li>
-
-                            <li className="nav-item">
-                                <NavLink activeClassName="active" to="/meetup" className="nav-link" role="button">
-                                    MEETUPS
+                                <NavLink activeClassName="active" to="/speakers" className="nav-link" role="button">
+                                    SPEAKERS
                                 </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink activeClassName="active" to="/community" className="nav-link" role="button">
-                                    THE COMMUNITY
+                                    COMMUNITY
                                 </NavLink>
                             </li>
-                            <li className="nav-item">
-                                <NavLink activeClassName="active" to="/contact" className="nav-link" role="button">
-                                    CONTACT US
-                                </NavLink>
+
+                            {/*<li className="nav-item">*/}
+                            {/*    <NavLink activeClassName="active" to="/meetup" className="nav-link" role="button">*/}
+                            {/*        MEETUPS*/}
+                            {/*    </NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li className="nav-item">*/}
+                            {/*    <NavLink activeClassName="active" to="/community" className="nav-link" role="button">*/}
+                            {/*        THE COMMUNITY*/}
+                            {/*    </NavLink>*/}
+                            {/*</li>*/}
+                            {/*<li className="nav-item">*/}
+                            {/*    <NavLink activeClassName="active" to="/contact" className="nav-link" role="button">*/}
+                            {/*        CONTACT US*/}
+                            {/*    </NavLink>*/}
+                            {/*</li>*/}
+
+
+                            <li className="dropdown submenu nav-item"><a title="Pages"
+                                                                         className="dropdown-toggle nav-link"
+                                                                         data-toggle="dropdown" role="button"
+                                                                         aria-haspopup="true" aria-expanded="false"
+                                                                         href="#">RESOURCES</a>
+                                <ul role="menu" className=" dropdown-menu">
+                                    <li className="nav-item">
+                                        <NavLink activeClassName="active" to="/meetup" className="nav-link" role="button">
+                                            Meetups
+                                        </NavLink>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a title="Pages" className="dropdown-toggle nav-link" role="button"  href="https://medium.com/devopsng" target="_blank">
+                                            Publications
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <NavLink activeClassName="active" to="/contact" className="nav-link" role="button">
+                                            Contact
+                                        </NavLink>
+                                    </li>
+
+                                </ul>
                             </li>
+
                         </ul>
-                        <a className="btn_get btn_get_radious menu_cus menu_custfive" href="https://www.meetup.com/Devops-Nigeria/events/265747549/" target="_blank">
+                        <NavLink className="btn_get btn_get_radious menu_cus menu_custfive" to={"/register"} target="_blank">
                             {/*Join Us*/}
                             Register!
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
             </nav>

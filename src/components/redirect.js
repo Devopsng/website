@@ -7,8 +7,7 @@ export class Redirect extends Component {
         this.state = { ...props };
     }
     componentWillMount(){
-        console.log(this.state);
-        window.location = 'https://www.meetup.com/Devops-Nigeria/events/265747549';
+        window.location = this.state.location;
     }
     render(){
         return (
