@@ -36,14 +36,13 @@ function App() {
                   <Route path="/community" component={Community}/>
                   <Route path="/speakers" component={Speakers}/>
                   {/*<Route exact path="/register" component={Register}/>*/}
-                  {/*<Route*/}
-                  {/*    path="/register"*/}
-                  {/*    component={ Redirect }*/}
-                  {/*    loc={ "google.com" }*/}
-                  {/*/>*/}
                   <Route
                       path="/register"
                       render={(props) => <Redirect {...props} location={ "https://www.meetup.com/Devops-Nigeria/events/265747549" } />}
+                  />
+                  <Route
+                      path="/ife"
+                      render={(props) => <Redirect {...props} location={ "http://msht.us/devcon-ife" } />}
                   />
               {/*</Switch>*/}
           </Router>

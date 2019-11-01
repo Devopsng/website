@@ -28,18 +28,18 @@ function Header() {
                 className="action_btn d-flex align-items-center mt_40 wow fadeInLeft"
                 data-wow-delay="0.6s"
               >
-                <a href="https://www.meetup.com/Devops-Nigeria/events/265747549" target="_blank" className="software_banner_btn">
+                {/*<a href="https://www.meetup.com/Devops-Nigeria/events/265747549" target="_blank" className="software_banner_btn">*/}
                   {/*Join Us*/}
-                  Register!
-                </a>
+                  {/*Register!*/}
+                {/*</a>*/}
                 {/*<a href="https://www.papercall.io/devopsconference" target="_blank" className="speak_btn">*/}
                 {/*  /!*Join Us*!/*/}
                 {/*  Become a Speaker*/}
                 {/*</a>*/}
-                <a href="https://www.papercall.io/devopsconference" target="_blank" className="video_btn">
-                  <div className="icon"><i className="ti-volume"></i></div>
-                  <span>Become a Speaker</span>
-                </a>
+                {/*<a href="https://www.papercall.io/devopsconference" target="_blank" className="video_btn">*/}
+                {/*  <div className="icon"><i className="ti-volume"></i></div>*/}
+                {/*  <span>Become a Speaker</span>*/}
+                {/*</a>*/}
               </div>
             </div>
           </div>
