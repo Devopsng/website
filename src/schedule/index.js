@@ -5,7 +5,7 @@ import Header from './header'
 import Footer from "../components/footer";
 import Sponsors from "../components/sponsors";
 
-function Speakers() {
+function Schedule() {
     return (
         <div className="body_wrapper">
             <Nav />
@@ -17,4 +17,4 @@ function Speakers() {
     );
 }
 
-export default Speakers;
+export default Schedule;
