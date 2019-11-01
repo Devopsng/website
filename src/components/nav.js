@@ -52,9 +52,9 @@ function Nav() {
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a title="Pages" className="dropdown-toggle nav-link" role="button"  href="https://medium.com/devopsng" target="_blank">
-                                    PUBLICATIONS
-                                </a>
+                                <NavLink activeClassName="active" to="/community" className="nav-link" role="button">
+                                    COMMUNITY
+                                </NavLink>
                             </li>
 
                             {/*<li className="nav-item">*/}
@@ -86,9 +86,9 @@ function Nav() {
                                         </NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <NavLink activeClassName="active" to="/community" className="nav-link" role="button">
-                                            Community
-                                        </NavLink>
+                                        <a title="Pages" className="dropdown-toggle nav-link" role="button"  href="https://medium.com/devopsng" target="_blank">
+                                            Publications
+                                        </a>
                                     </li>
                                     <li className="nav-item">
                                         <NavLink activeClassName="active" to="/contact" className="nav-link" role="button">
