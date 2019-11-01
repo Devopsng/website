@@ -35,6 +35,7 @@ function App() {
                   <Route path="/contact" component={Contact}/>
                   <Route path="/community" component={Community}/>
                   <Route path="/speakers" component={Speakers}/>
+                  <Route path="/schedule" component={}/>
                   {/*<Route exact path="/register" component={Register}/>*/}
                   <Route
                       path="/register"
