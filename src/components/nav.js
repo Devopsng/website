@@ -100,10 +100,10 @@ function Nav() {
                             </li>
 
                         </ul>
-                        <a className="btn_get btn_get_radious menu_cus menu_custfive" href="https://www.meetup.com/Devops-Nigeria/events/265747549/" target="_blank">
+                        <NavLink className="btn_get btn_get_radious menu_cus menu_custfive" to={"/register"} target="_blank">
                             {/*Join Us*/}
                             Register!
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
             </nav>

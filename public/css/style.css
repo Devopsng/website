@@ -3447,7 +3447,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   top: 0;
   z-index: -1;
   /* background: url("../img/home5/shap_tecture.png") no-repeat scroll center 0/cover; */
-  background: url("../img/home5/banner_new.jpg") no-repeat scroll center 0/cover;
+  /*background: url("../img/home5/banner_new.jpg") no-repeat scroll center 0/cover;*/
+  background: url("../img/conf/banner.jpg") no-repeat scroll center 0/cover;
 }
 
 /*=============== saas banner area ================*/
