@@ -5,7 +5,7 @@ import JoinSlack from "../modal/slack";
 
 function JoinUs() {
     return (
-        <section className="software_featured_area_two sec_pad">
+        <section className="software_featured_area_two sec_pad" id="join-us">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
