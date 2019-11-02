@@ -183,7 +183,6 @@ class ContactSection extends Component {
                         <div className="col-lg-8 offset-lg-1">
                             <div className="contact_form">
                                 <form
-                                    action="https://droitthemes.com/html/saasland/contact_process.php"
                                     className="contact_form_box"
                                     method="post"
                                     id="contactForm"
@@ -234,14 +233,13 @@ class ContactSection extends Component {
                             className={`${error.message}`}
                             value={contact.message}
                         >
-                          {/*{}*/}
                         </textarea>
                                             </div>
                                         </div>
                                     </div>
                                     <button
                                         disabled={!this.state.isValid}
-                                        type="submit" className="btn_three">
+                                        type="submit" className="btn_three contact_btn">
                                         Send Message
                                     </button>
                                 </form>
@@ -254,8 +252,6 @@ class ContactSection extends Component {
             </section>
         );
     }
-
-
 }
 
 export default ContactSection;
