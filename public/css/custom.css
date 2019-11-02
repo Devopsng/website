@@ -89,3 +89,10 @@
         font-size: 15px;
     }
 }
+
+
+/*Contact form button*/
+.contact_btn:disabled{
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
