@@ -1,14 +1,16 @@
 import React, {Component} from "react";
 import {isEmailValid, isOnlyText, isAlphaNumeric} from "../helper/validator.helper"
 import axios from "axios";
+import Success from "../components/success";
 
 class ContactSection extends Component {
     constructor(props) {
         super(props);
         this.state = {
             isValid: false,
+            success: false,
             baseUrl: process.env.REACT_APP_BASE_ENDPOINT,
-          repy_to: process.env.REACT_APP_REPLY_TO_EMAIL,
+            repy_to: process.env.REACT_APP_REPLY_TO_EMAIL,
             contact: {
                 name: '',
                 email: '',
@@ -45,6 +47,16 @@ class ContactSection extends Component {
         })
             .then((res) => {
                 console.log("res", res);
+                this.setState({success: true});
+                this.setState(prevState => ({
+                    contact: {
+                        ...prevState.contact,
+                        name: '',
+                        email: '',
+                        subject: '',
+                        message: '',
+                    }
+                }));
             }).catch((error) => {
             console.log(error);
         })
@@ -182,6 +194,8 @@ class ContactSection extends Component {
                         </div>
                         <div className="col-lg-8 offset-lg-1">
                             <div className="contact_form">
+                                {this.state.success ? <Success
+                                    text={"You have successfully contacted us, we will get back to you in a bit!"}/> : null}
                                 <form
                                     className="contact_form_box"
                                     method="post"
