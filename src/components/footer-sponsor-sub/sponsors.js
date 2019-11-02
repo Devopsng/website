@@ -1,21 +1,21 @@
 import React, {Component} from "react";
 import {isEmailValid} from "../../helper/validator.helper";
+import axios from "axios";
+import Success from "../success";
 
 
 class Sponsors extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      baseUrl: process.env.REACT_APP_BASE_ENDPOINT,
+      repy_to: process.env.REACT_APP_REPLY_TO_EMAIL,
       email: '',
       submitted: 1,
       errorClassName: '',
       errorMessage: ''
     };
   };
-
-  save = () => {
-  };
-
 
   onChange = (event) => {
     if(!isEmailValid(event.target.value)){
@@ -28,14 +28,33 @@ class Sponsors extends Component {
 
   onSubmit = (event) => {
     event.preventDefault();
-    // console.log("onSubmit function")
     if(isEmailValid(this.state.email)){
       console.log(this.state.email);
-      console.log("onSubmit function inside isEmailValid")
       this.save(this.state.email);
-      // this.setState({submitted: 2});
-      // this.sendSlackInvite(this.state.email)
     }
+  };
+
+  save = (email) => {
+    axios({
+      method: 'post',
+      url: this.state.baseUrl,
+      header: {'Content-Type': 'application/json'},
+      data: {
+        body: {
+          name: "SUBSCRIPTION",
+          reply_to: this.state.reply_to,
+          message: email
+        }
+      }
+    })
+        .then((res) => {
+          console.log("res", res);
+          this.setState({success: true});
+          this.setState({email: ''});
+
+        }).catch((error) => {
+      console.log(error);
+    })
   };
 
   render() {
@@ -79,6 +98,8 @@ class Sponsors extends Component {
             <div className="subscribe_form_info text-center">
               <h2 className="f_600 f_size_30 l_height30 t_color3 mb_50">Get notified about upcoming Meetups</h2>
               <form className="mailchimp subscribe-form" onSubmit={this.onSubmit}>
+                {this.state.success ? <Success
+                    text={"You have been added to the mailing list!"}/> : null}
                 <input
                     type="text"
                     name="email"
