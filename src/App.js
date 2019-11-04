@@ -37,7 +37,6 @@ function App() {
                   <Route path="/community" component={Community}/>
                   <Route path="/speakers" component={Speakers}/>
                   <Route path="/schedule" component={Schedule}/>
-                  {/*<Route exact path="/register" component={Register}/>*/}
                   <Route
                       path="/register"
                       render={(props) => <Redirect {...props} location={ "https://www.meetup.com/Devops-Nigeria/events/265747549" } />}
@@ -49,22 +48,6 @@ function App() {
               {/*</Switch>*/}
           </Router>
       </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 
