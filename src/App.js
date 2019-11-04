@@ -45,6 +45,14 @@ function App() {
                       path="/ife"
                       render={(props) => <Redirect {...props} location={ "http://msht.us/devcon-ife" } />}
                   />
+              <Route
+                  path="/live"
+                  render={(props) => <Redirect {...props} location={ "https://www.youtube.com" } />}
+              />
+              <Route
+                  path="/conf"
+                  render={(props) => <Redirect {...props} location={ "https://forms.gle/75VQYmX5cAbgbFGC6" } />}
+              />
               {/*</Switch>*/}
           </Router>
       </div>
