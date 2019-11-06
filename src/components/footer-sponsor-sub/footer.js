@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -45,8 +45,8 @@ function Footer() {
                 {/*  <button className="btn btn-submit" type="submit">*/}
                 {/*    <i className="ti-arrow-right"></i>*/}
                 {/*  </button>*/}
-                  {/* <p className="mchimp-errmessage" style="display: none;"></p> */}
-                  {/* <p className="mchimp-sucmessage" style="display: none;"></p> */}
+                {/* <p className="mchimp-errmessage" style="display: none;"></p> */}
+                {/* <p className="mchimp-sucmessage" style="display: none;"></p> */}
                 {/*</form>*/}
               </div>
             </div>
@@ -57,10 +57,12 @@ function Footer() {
                 </h3> */}
                 <ul className="list-unstyled f_list">
                   <li>
-                    <a href="https://www.meetup.com/Devops-Nigeria/" target="_blank">Join Us</a>
+                    <a href="https://www.meetup.com/Devops-Nigeria/" target="_blank">
+                      Join Us
+                    </a>
                   </li>
                   <li>
-                    <Link to="/community" >About</Link>
+                    <Link to="/community">About</Link>
                   </li>
                   <li>
                     <Link to="#">Sponsors</Link>
@@ -87,7 +89,9 @@ function Footer() {
                   {/*    <a href="#">Job Board</a>*/}
                   {/*</li>*/}
                   <li>
-                    <a href="https://medium.com/devopsng" target="_blank">Blog</a>
+                    <a href="https://medium.com/devopsng" target="_blank">
+                      Blog
+                    </a>
                   </li>
                   <li>
                     <Link to="/meetup">Meetups</Link>
@@ -146,14 +150,17 @@ function Footer() {
             </div>
             <div className="col-lg-4 col-md-3 col-sm-6">
               <div className="f_social_icon_two text-center">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/devopsng/">
                   <i className="ti-linkedin"></i>
                 </a>
                 <a href="https://twitter.com/devopsng">
                   <i className="ti-twitter-alt"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/devopsng/">
                   <i className="ti-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCOo_JN3SWn1RNL7Qdw7WRbg/">
+                  <i className="ti-youtube"></i>
                 </a>
               </div>
             </div>
