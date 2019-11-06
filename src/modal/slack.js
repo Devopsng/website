@@ -148,7 +148,7 @@ class MyVerticallyCenteredModal extends Component {
                             <div className="download_content thanks_content text-center download_content_modified">
                                 <img src="img/saas/icon/slack.png" alt=""/>
                                 <h3>Thank you for your Joining!</h3>
-                                <p>We’ve sent the invite in your inbox. Let’s get started the awesome things.</p>
+                                <p>We’ve sent the invite in your inbox. Let’s get started on building awesome things.😊😊</p>
                             </div>
                         </Modal.Body>
                     </Modal>
