@@ -47,7 +47,7 @@ function App() {
                   />
               <Route
                   path="/live"
-                  render={(props) => <Redirect {...props} location={ "https://www.youtube.com" } />}
+                  render={(props) => <Redirect {...props} location={ "https://www.youtube.com/watch?v=6LY167-7xgw&feature=youtu.be" } />}
               />
               <Route
                   path="/conf"
