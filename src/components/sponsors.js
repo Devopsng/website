@@ -38,6 +38,19 @@ function Sponsors() {
                             <img height="70" src="img/sponsors/quidax.png" alt="" />
                         </a>
                     </div>
+
+                    <div className="logo_item wow fadeInLeft" data-wow-delay="0.6s">
+                        <a href="#">
+                            <img height="70" src="img/sponsors/ethnos.jpeg" alt="" />
+                        </a>
+                    </div>
+
+                    <div className="logo_item wow fadeInLeft" data-wow-delay="0.6s">
+                        <a href="#">
+                            <img height="70" src="img/sponsors/check.jpeg" alt="" />
+                        </a>
+                    </div>
+
                     {/* <div className="logo_item wow fadeInLeft" data-wow-delay="0.7s">
                         <a href="#">
                             <img src="img/sponsors/microsoft.png" alt="" />
