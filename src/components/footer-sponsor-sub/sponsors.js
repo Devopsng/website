@@ -106,6 +106,12 @@ class Sponsors extends Component {
                 </a>
               </div>
 
+              <div className="logo_item wow fadeInLeft" data-wow-delay="0.6s">
+                <a href="#">
+                  <img height="70" src="img/sponsors/carbon.png" alt="" />
+                </a>
+              </div>
+
             </div>
 
             <div className="subscribe_form_info text-center">
