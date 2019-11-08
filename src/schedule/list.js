@@ -18,9 +18,36 @@ function ScheduleList() {
                     <h3 className="f_p f_size_24 l_height28 f_500 t_color3 mb-30">Agenda</h3>
                     <div className="listing_tab" id="tab_filter">
 
+
                         <div className="item lon new">
                             <div className="list_item">
-                                <figure><a href="#"><img src="img/process/Avast_Antivirus.png" alt="" /></a></figure>
+                                <figure><a href="#"><img src="img/process/png-logo-design.png" alt="" /></a></figure>
+                                <div className="joblisting_text">
+                                    <div className="job_list_table">
+                                        <div className="jobsearch-table-cell">
+                                            <h4>
+                                                <a href="javascript:void(0);" className="f_500 t_color3">
+                                                    Registration of Attendees
+                                                </a>
+                                            </h4>
+                                            <ul className="list-unstyled">
+                                                <li>DevOps NG Community</li>
+                                            </ul>
+                                        </div>
+                                        <div className="jobsearch-table-cell">
+                                            <div className="jobsearch-job-userlist">
+                                                <a href="#" className="apply_btn">10:00AM - 10:15AM</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="item lon new">
+                            <div className="list_item">
+                                <figure><a href="#"><img src="img/process/png-logo-design.png" alt="" /></a></figure>
                                 <div className="joblisting_text">
                                     <div className="job_list_table">
                                         <div className="jobsearch-table-cell">
@@ -36,7 +63,7 @@ function ScheduleList() {
                                         </div>
                                         <div className="jobsearch-table-cell">
                                             <div className="jobsearch-job-userlist">
-                                                <a href="#" className="apply_btn">10:00AM - 10:30AM</a>
+                                                <a href="#" className="apply_btn">10:15AM - 10:30AM</a>
                                             </div>
                                         </div>
                                     </div>
@@ -52,43 +79,17 @@ function ScheduleList() {
                                         <div className="jobsearch-table-cell">
                                             <h4>
                                                 <a href="javascript:void(0);" className="f_500 t_color3">
-                                                    DevOps Implementations - My Experience
+                                                    Accidental DevOps
                                                 </a>
                                             </h4>
                                             <ul className="list-unstyled">
-                                                <li className="g_color">Cobus Bernard</li>
-                                                <li>Senior AWS Evangelist, EMEA</li>
+                                                <li className="g_color">David Ogbiko</li>
+                                                <li>Engineering Manager at OPay</li>
                                             </ul>
                                         </div>
                                         <div className="jobsearch-table-cell">
                                             <div className="jobsearch-job-userlist">
-                                                <a href="#" className="apply_btn">??:??AM - ??:??AM</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="item lon new">
-                            <div className="list_item">
-                                <figure><a href="#"><img src="img/process/Avast_Antivirus.png" alt="" /></a></figure>
-                                <div className="joblisting_text">
-                                    <div className="job_list_table">
-                                        <div className="jobsearch-table-cell">
-                                            <h4>
-                                                <a href="javascript:void(0);" className="f_500 t_color3">
-                                                    Architecting for Failure
-                                                </a>
-                                            </h4>
-                                            <ul className="list-unstyled">
-                                                <li className="g_color">Ewere Diagboya</li>
-                                                <li>Head of Infra & Sec at Seamfix Nig Ltd.</li>
-                                            </ul>
-                                        </div>
-                                        <div className="jobsearch-table-cell">
-                                            <div className="jobsearch-job-userlist">
-                                                <a href="#" className="apply_btn">??:??AM - ??:??AM</a>
+                                                <a href="#" className="apply_btn">10:30AM - 11:00AM</a>
                                             </div>
                                         </div>
                                     </div>
@@ -114,7 +115,7 @@ function ScheduleList() {
                                         </div>
                                         <div className="jobsearch-table-cell">
                                             <div className="jobsearch-job-userlist">
-                                                <a href="#" className="apply_btn">??:??AM - ??:??AM</a>
+                                                <a href="#" className="apply_btn">11:15AM - 11:45AM</a>
                                             </div>
                                         </div>
                                     </div>
@@ -124,23 +125,48 @@ function ScheduleList() {
 
                         <div className="item lon new">
                             <div className="list_item">
-                                <figure><a href="#"><img src="img/process/Avast_Antivirus.png" alt="" /></a></figure>
+                                <figure><a href="#"><img src="img/process/png-logo-design.png" alt="" /></a></figure>
                                 <div className="joblisting_text">
                                     <div className="job_list_table">
                                         <div className="jobsearch-table-cell">
                                             <h4>
                                                 <a href="javascript:void(0);" className="f_500 t_color3">
-                                                    Accidental DevOps
+                                                    BREAK OUT SESSION
                                                 </a>
                                             </h4>
                                             <ul className="list-unstyled">
-                                                <li className="g_color">David Ogbiko</li>
-                                                <li>Engineering Manager at OPay</li>
+                                                <li>Attendees</li>
                                             </ul>
                                         </div>
                                         <div className="jobsearch-table-cell">
                                             <div className="jobsearch-job-userlist">
-                                                <a href="#" className="apply_btn">??:??AM - ??:??AM</a>
+                                                <a href="#" className="apply_btn">11:45AM - 11:55AM</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="item lon new">
+                            <div className="list_item">
+                                <figure><a href="#"><img src="img/process/png-logo-design.png" alt="" /></a></figure>
+                                <div className="joblisting_text">
+                                    <div className="job_list_table">
+                                        <div className="jobsearch-table-cell">
+                                            <h4>
+                                                <a href="javascript:void(0);" className="f_500 t_color3">
+                                                    Architecting for Failure
+                                                </a>
+                                            </h4>
+                                            <ul className="list-unstyled">
+                                                <li className="g_color">Ewere Diagboya</li>
+                                                <li>Head of Infra & Sec at Seamfix Nig Ltd.</li>
+                                            </ul>
+                                        </div>
+                                        <div className="jobsearch-table-cell">
+                                            <div className="jobsearch-job-userlist">
+                                                <a href="#" className="apply_btn">12:00PM - 12:30PM</a>
                                             </div>
                                         </div>
                                     </div>
@@ -166,7 +192,7 @@ function ScheduleList() {
                                         </div>
                                         <div className="jobsearch-table-cell">
                                             <div className="jobsearch-job-userlist">
-                                                <a href="#" className="apply_btn">??:??AM - ??:??AM</a>
+                                                <a href="#" className="apply_btn">12:45PM - 01:30AM</a>
                                             </div>
                                         </div>
                                     </div>
@@ -176,29 +202,81 @@ function ScheduleList() {
 
                         <div className="item lon new">
                             <div className="list_item">
-                                <figure><a href="#"><img src="img/process/Avast_Antivirus.png" alt="" /></a></figure>
+                                <figure><a href="#"><img src="img/process/png-logo-design.png" alt="" /></a></figure>
                                 <div className="joblisting_text">
                                     <div className="job_list_table">
                                         <div className="jobsearch-table-cell">
                                             <h4>
                                                 <a href="javascript:void(0);" className="f_500 t_color3">
-                                                    Cryptojacking on Jenkins Server
+                                                    DevOps Implementations - My Experience
                                                 </a>
                                             </h4>
                                             <ul className="list-unstyled">
-                                                <li className="g_color">AbdulBasit Kadir</li>
-                                                <li>Tech Evangelist at AWS</li>
+                                                <li className="g_color">Cobus Bernard</li>
+                                                <li>Senior AWS Evangelist, EMEA</li>
                                             </ul>
                                         </div>
                                         <div className="jobsearch-table-cell">
                                             <div className="jobsearch-job-userlist">
-                                                <a href="#" className="apply_btn">??:??AM - ??:??AM</a>
+                                                <a href="#" className="apply_btn">01:40PM - 02:00PM</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div className="item lon new">
+                            <div className="list_item">
+                                <figure><a href="#"><img src="img/process/png-logo-design.png" alt="" /></a></figure>
+                                <div className="joblisting_text">
+                                    <div className="job_list_table">
+                                        <div className="jobsearch-table-cell">
+                                            <h4>
+                                                <a href="javascript:void(0);" className="f_500 t_color3">
+                                                    OPEN SPACES
+                                                </a>
+                                            </h4>
+                                            <ul className="list-unstyled">
+                                                <li>Attendees</li>
+                                            </ul>
+                                        </div>
+                                        <div className="jobsearch-table-cell">
+                                            <div className="jobsearch-job-userlist">
+                                                <a href="#" className="apply_btn">02:00PM - 03:00PM</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        {/*<div className="item lon new">*/}
+                        {/*    <div className="list_item">*/}
+                        {/*        <figure><a href="#"><img src="img/process/Avast_Antivirus.png" alt="" /></a></figure>*/}
+                        {/*        <div className="joblisting_text">*/}
+                        {/*            <div className="job_list_table">*/}
+                        {/*                <div className="jobsearch-table-cell">*/}
+                        {/*                    <h4>*/}
+                        {/*                        <a href="javascript:void(0);" className="f_500 t_color3">*/}
+                        {/*                            Cryptojacking on Jenkins Server*/}
+                        {/*                        </a>*/}
+                        {/*                    </h4>*/}
+                        {/*                    <ul className="list-unstyled">*/}
+                        {/*                        <li className="g_color">AbdulBasit Kadir</li>*/}
+                        {/*                        <li>Tech Evangelist at AWS</li>*/}
+                        {/*                    </ul>*/}
+                        {/*                </div>*/}
+                        {/*                <div className="jobsearch-table-cell">*/}
+                        {/*                    <div className="jobsearch-job-userlist">*/}
+                        {/*                        <a href="#" className="apply_btn">??:??AM - ??:??AM</a>*/}
+                        {/*                    </div>*/}
+                        {/*                </div>*/}
+                        {/*            </div>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
 
 
                     </div>
