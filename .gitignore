@@ -25,3 +25,7 @@ yarn-error.log*
 README copy.md
 
 /public/trash
+
+package-lock.json
+
+.idea/
