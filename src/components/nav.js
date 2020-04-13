@@ -78,6 +78,13 @@ function Nav() {
                                     MEETUPS
                                 </NavLink>
                             </li>
+
+                            <li className="nav-item">
+                                <NavLink activeClassName="active" to="/members" className="nav-link" role="button">
+                                    MEMBERS
+                                </NavLink>
+                            </li>
+
                             <li className="nav-item">
                                 <a title="Pages" className="dropdown-toggle nav-link" role="button"  href="https://medium.com/devopsng" target="_blank">
                                     PUBLICATIONS
@@ -88,7 +95,6 @@ function Nav() {
                                     CONTACT
                                 </NavLink>
                             </li>
-
 
                             {/* <li className="dropdown submenu nav-item">
                                 <a title="Pages"
@@ -116,7 +122,6 @@ function Nav() {
                                     </li>
                                 </ul>
                             </li> */}
-
                         </ul>
                         <NavLink className="btn_get btn_get_radious menu_cus menu_custfive" to={"/register"} target="_blank">
                             Join Us
