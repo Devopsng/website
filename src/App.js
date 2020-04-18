@@ -17,6 +17,7 @@ import Register from './register';
 import Redirect from './components/redirect'
 import Speakers from "./speakers";
 import Schedule from "./schedule";
+import Member from "./member"
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
                   <Route path="/community" component={Community}/>
                   <Route path="/speakers" component={Speakers}/>
                   <Route path="/schedule" component={Schedule}/>
+                  <Route path="/members" component={Member}/>
                   <Route
                       path="/register"
                       render={(props) => <Redirect {...props} location={ "https://www.meetup.com/Devops-Nigeria/events/265747549" } />}

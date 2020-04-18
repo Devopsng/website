@@ -6,7 +6,7 @@ function MeetUpList() {
             <div className="container">
                 <div className="sec_title text-center mb_70">
                     <h2 className="f_p f_size_30 l_height30 f_700 t_color3 mb_20">Our Locations</h2>
-                    <p className="f_400 f_size_16">DevOp NG MeetUp is group with a chance to meet fellow minded individuals, from people that have <br /> been doing DevOps for a long time to new starters!
+                    <p className="f_400 f_size_16">DevOps NG MeetUp is group with a chance to meet fellow minded individuals, from people that have <br /> been doing DevOps for a long time to new starters!
                     </p>
                 </div>
                 <div className="row app_service_info">
