@@ -146,14 +146,17 @@ function Footer() {
                         </div>
                         <div className="col-lg-4 col-md-3 col-sm-6">
                             <div className="f_social_icon_two text-center">
-                                <a href="#">
+                                <a href="https://www.linkedin.com/in/devopsng/">
                                     <i className="ti-linkedin"></i>
                                 </a>
                                 <a href="https://twitter.com/devopsng">
                                     <i className="ti-twitter-alt"></i>
                                 </a>
-                                <a href="#">
+                                <a href="https://www.instagram.com/devopsng/">
                                     <i className="ti-instagram"></i>
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCOo_JN3SWn1RNL7Qdw7WRbg/">
+                                    <i className="ti-youtube"></i>
                                 </a>
                             </div>
                         </div>
