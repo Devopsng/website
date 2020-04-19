@@ -18,7 +18,7 @@ import Redirect from './components/redirect'
 import Speakers from "./speakers";
 import Schedule from "./schedule";
 import Member from "./member"
-import NotFound from "./components/404"
+import PageNotFound from "./components/404/index"
 
 function App() {
   return (
@@ -58,7 +58,7 @@ function App() {
                     />
                     <Route
                         path="*"
-                        component={NotFound}
+                        component={PageNotFound}
                     />
                         
               {/*</Switch>*/}
