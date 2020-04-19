@@ -9,7 +9,6 @@ import {
 
 function Nav() {
     return (
-
             <header className="header_area">
             <nav className="navbar navbar-expand-lg menu_one menu_five">
                 <div className="container">
