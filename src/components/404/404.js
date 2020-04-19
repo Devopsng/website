@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Index() {
     return (
@@ -11,7 +12,7 @@ function Index() {
                     </div>
                     <h2 className="f_p f_400 w_color f_size_40">page not found</h2>
                     <p className="w_color f_400">We’re sorry, the page you have looked for does not exist in our database! Maybe <br /> go to our home page or try to use a search?</p>
-                    <a href="#" className="about_btn btn_hover mt_40">Go Back to home Page</a>
+                    <Link to="/" className="about_btn btn_hover mt_40">Go Back to home Page</Link>
                 </div>
             </div>
         </section>
