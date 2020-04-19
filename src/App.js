@@ -18,6 +18,7 @@ import Redirect from './components/redirect'
 import Speakers from "./speakers";
 import Schedule from "./schedule";
 import Member from "./member"
+import PageNotFound from "./components/404/index"
 
 function App() {
   return (
@@ -32,29 +33,34 @@ function App() {
                   {/*<Route path="/home" exact>*/}
                   {/*    <Redirect to="/" />*/}
                   {/*</Route>*/}
-                  <Route exact path="/" component={Index} />
-                  <Route path="/meetup" component={MeetUp} />
-                  <Route path="/contact" component={Contact}/>
-                  <Route path="/community" component={Community}/>
-                  <Route path="/speakers" component={Speakers}/>
-                  <Route path="/schedule" component={Schedule}/>
-                  <Route path="/members" component={Member}/>
-                  <Route
-                      path="/register"
-                      render={(props) => <Redirect {...props} location={ "https://www.meetup.com/Devops-Nigeria/events/265747549" } />}
-                  />
-                  <Route
-                      path="/ife"
-                      render={(props) => <Redirect {...props} location={ "http://msht.us/devcon-ife" } />}
-                  />
-              <Route
-                  path="/live"
-                  render={(props) => <Redirect {...props} location={ "https://www.youtube.com/watch?v=6LY167-7xgw&feature=youtu.be" } />}
-              />
-              <Route
-                  path="/conf"
-                  render={(props) => <Redirect {...props} location={ "https://forms.gle/75VQYmX5cAbgbFGC6" } />}
-              />
+                    <Route exact path="/" component={Index} />
+                    <Route path="/meetup" component={MeetUp} />
+                    <Route path="/contact" component={Contact}/>
+                    <Route path="/community" component={Community}/>
+                    <Route path="/speakers" component={Speakers}/>
+                    <Route path="/schedule" component={Schedule}/>
+                    <Route path="/members" component={Member}/>
+                    <Route
+                        path="/register"
+                        render={(props) => <Redirect {...props} location={ "https://www.meetup.com/Devops-Nigeria/events/265747549" } />}
+                    />
+                    <Route
+                        path="/ife"
+                        render={(props) => <Redirect {...props} location={ "http://msht.us/devcon-ife" } />}
+                    />
+                    <Route
+                        path="/live"
+                        render={(props) => <Redirect {...props} location={ "https://www.youtube.com/watch?v=6LY167-7xgw&feature=youtu.be" } />}
+                    />
+                    <Route
+                        path="/conf"
+                        render={(props) => <Redirect {...props} location={ "https://forms.gle/75VQYmX5cAbgbFGC6" } />}
+                    />
+                    <Route
+                        path="*"
+                        component={PageNotFound}
+                    />
+                        
               {/*</Switch>*/}
           </Router>
       </div>
