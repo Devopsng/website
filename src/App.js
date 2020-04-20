@@ -22,17 +22,10 @@ import PageNotFound from "./components/404/index"
 
 function App() {
   return (
-   // {/*<div>*/}
-    //{/*  */}
-   // {/*  <Index/>*/}
-  //  {/*</div>*/}
       <div>
           <Preloader/>
           <Router>
               <Switch>
-                  {/*<Route path="/home" exact>*/}
-                  {/*    <Redirect to="/" />*/}
-                  {/*</Route>*/}
                     <Route exact path="/" component={Index} />
                     <Route path="/meetup" component={MeetUp} />
                     <Route path="/contact" component={Contact}/>
@@ -60,7 +53,6 @@ function App() {
                         path="*"
                         component={PageNotFound}
                     />
-                        
               </Switch>
           </Router>
       </div>
