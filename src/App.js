@@ -29,7 +29,7 @@ function App() {
       <div>
           <Preloader/>
           <Router>
-              {/*<Switch>*/}
+              <Switch>
                   {/*<Route path="/home" exact>*/}
                   {/*    <Redirect to="/" />*/}
                   {/*</Route>*/}
@@ -61,7 +61,7 @@ function App() {
                         component={PageNotFound}
                     />
                         
-              {/*</Switch>*/}
+              </Switch>
           </Router>
       </div>
   );
