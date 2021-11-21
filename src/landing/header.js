@@ -11,13 +11,13 @@ function Header() {
                 className="f_500 f_size_50 w_color wow fadeInLeft"
                 data-wow-delay="0.2s"
               >
-                <span className="f_700 head">DevOps Nigeria</span>
+                <span className="f_700 head">DevOps NG is Now Localhost </span>
               </h2>
               <p
                 className="w_color f_size_18 l_height30 mt_30 wow fadeInLeft desp"
                 data-wow-delay="0.4s"
               >
-                Join thousands of (Software, DevOps, Cloud and Site Reliability) Engineers and IT experts in Africa,
+                Join thousands of DevOps, Cloud and Site Reliability Engineer,  Cybersecurity Specialists Engineers and all IT experts in Africa,
                 Get updated on news and happenings in the community, get must-read articles, chat with like-minded people, get job offers and more.
 
                 {/* We are excited to announce the first DevOps Conference in Nigeria, after all our successful meetups and based on popular
